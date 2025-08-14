@@ -1,0 +1,852 @@
+{
+    "list": [
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Border/Border_1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Border/Border_1000.zip",
+                    "zipLastModifiedTime": 1631594601065,
+                    "itemsNo": "Border_1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Border/Border_2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Border/Border_2000.zip",
+                    "zipLastModifiedTime": 1631594584196,
+                    "itemsNo": "Border_2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Border/Border_3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Border/Border_3000.zip",
+                    "zipLastModifiedTime": 1631594589439,
+                    "itemsNo": "Border_3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Border/Border_4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Border/Border_4000.zip",
+                    "zipLastModifiedTime": 1631594603116,
+                    "itemsNo": "Border_4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Border/Border_5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Border/Border_5000.zip",
+                    "zipLastModifiedTime": 1631594606208,
+                    "itemsNo": "Border_5000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Border",
+            "priority": 450
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_1000.zip",
+                    "zipLastModifiedTime": 1660465487359,
+                    "itemsNo": "Brush_1000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_2000.zip",
+                    "zipLastModifiedTime": 1660465475124,
+                    "itemsNo": "Brush_2000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_3000.zip",
+                    "zipLastModifiedTime": 1660465476906,
+                    "itemsNo": "Brush_3000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_4000.zip",
+                    "zipLastModifiedTime": 1660465685833,
+                    "itemsNo": "Brush_4000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_5000.zip",
+                    "zipLastModifiedTime": 1660465484897,
+                    "itemsNo": "Brush_5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_6000.zip",
+                    "zipLastModifiedTime": 1660465467870,
+                    "itemsNo": "Brush_6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Brush/Brush_7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Brush/Brush_7000.zip",
+                    "zipLastModifiedTime": 1660465487560,
+                    "itemsNo": "Brush_7000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Brush",
+            "priority": 50
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Covid-19/Covid-19 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Covid-19/Covid-19 100.zip",
+                    "zipLastModifiedTime": 1631594858588,
+                    "itemsNo": "Covid-19 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Covid-19/Covid-19 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Covid-19/Covid-19 200.zip",
+                    "zipLastModifiedTime": 1631594855635,
+                    "itemsNo": "Covid-19 200",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Covid-19",
+            "priority": -1
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Daily life/Daily life_1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Daily life/Daily life_1000.zip",
+                    "zipLastModifiedTime": 1631595109316,
+                    "itemsNo": "Daily life_1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Daily life/Daily life_2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Daily life/Daily life_2000.zip",
+                    "zipLastModifiedTime": 1631595114758,
+                    "itemsNo": "Daily life_2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Daily life/Daily life_3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Daily life/Daily life_3000.zip",
+                    "zipLastModifiedTime": 1631595111273,
+                    "itemsNo": "Daily life_3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Daily life/Daily life_4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Daily life/Daily life_4000.zip",
+                    "zipLastModifiedTime": 1631595096882,
+                    "itemsNo": "Daily life_4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Daily life/Daily life_5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Daily life/Daily life_5000.zip",
+                    "zipLastModifiedTime": 1631595106757,
+                    "itemsNo": "Daily life_5000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Daily life",
+            "priority": 110
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fashion/Fashion_1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fashion/Fashion_1000.zip",
+                    "zipLastModifiedTime": 1631594773708,
+                    "itemsNo": "Fashion_1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fashion/Fashion_2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fashion/Fashion_2000.zip",
+                    "zipLastModifiedTime": 1631594775713,
+                    "itemsNo": "Fashion_2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fashion/Fashion_3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fashion/Fashion_3000.zip",
+                    "zipLastModifiedTime": 1631594777903,
+                    "itemsNo": "Fashion_3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fashion/Fashion_4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 330
+                    },
+                    "zipFile": "Fashion/Fashion_4000.zip",
+                    "zipLastModifiedTime": 1631594779659,
+                    "itemsNo": "Fashion_4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fashion/Fashion_5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fashion/Fashion_5000.zip",
+                    "zipLastModifiedTime": 1631594772042,
+                    "itemsNo": "Fashion_5000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Fashion",
+            "priority": 60
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fitness/Fitness 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fitness/Fitness 100.zip",
+                    "zipLastModifiedTime": 1631594525159,
+                    "itemsNo": "Fitness 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fitness/Fitness 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fitness/Fitness 200.zip",
+                    "zipLastModifiedTime": 1631594527764,
+                    "itemsNo": "Fitness 200",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fitness/Fitness 300/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fitness/Fitness 300.zip",
+                    "zipLastModifiedTime": 1631594523425,
+                    "itemsNo": "Fitness 300",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fitness/Fitness 400/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fitness/Fitness 400.zip",
+                    "zipLastModifiedTime": 1631594526192,
+                    "itemsNo": "Fitness 400",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Fitness/Fitness 500/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Fitness/Fitness 500.zip",
+                    "zipLastModifiedTime": 1631594522153,
+                    "itemsNo": "Fitness 500",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Fitness",
+            "priority": 500
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 100.zip",
+                    "zipLastModifiedTime": 1631595175517,
+                    "itemsNo": "Food 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 200.zip",
+                    "zipLastModifiedTime": 1631595157552,
+                    "itemsNo": "Food 200",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 300/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 300.zip",
+                    "zipLastModifiedTime": 1631595166717,
+                    "itemsNo": "Food 300",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 400/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 400.zip",
+                    "zipLastModifiedTime": 1631595169690,
+                    "itemsNo": "Food 400",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 50/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 50.zip",
+                    "zipLastModifiedTime": 1631595150996,
+                    "itemsNo": "Food 50",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 500/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 500.zip",
+                    "zipLastModifiedTime": 1631595163726,
+                    "itemsNo": "Food 500",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 600/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 600.zip",
+                    "zipLastModifiedTime": 1631595150041,
+                    "itemsNo": "Food 600",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 700/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 700.zip",
+                    "zipLastModifiedTime": 1631595168773,
+                    "itemsNo": "Food 700",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 800/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 800.zip",
+                    "zipLastModifiedTime": 1631595164697,
+                    "itemsNo": "Food 800",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Food/Food 900/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Food/Food 900.zip",
+                    "zipLastModifiedTime": 1631595158702,
+                    "itemsNo": "Food 900",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Food",
+            "priority": 400
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Holiday/Holiday 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Holiday/Holiday 100.zip",
+                    "zipLastModifiedTime": 1631594492601,
+                    "itemsNo": "Holiday 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Holiday/Holiday 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Holiday/Holiday 200.zip",
+                    "zipLastModifiedTime": 1631594488664,
+                    "itemsNo": "Holiday 200",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Holiday",
+            "priority": -1
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 1000.zip",
+                    "zipLastModifiedTime": 1631594890802,
+                    "itemsNo": "Sale 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 1100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 1100.zip",
+                    "zipLastModifiedTime": 1631594883421,
+                    "itemsNo": "Sale 1100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 1200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 1200.zip",
+                    "zipLastModifiedTime": 1631594895131,
+                    "itemsNo": "Sale 1200",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 300/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 330
+                    },
+                    "zipFile": "Sale/Sale 300.zip",
+                    "zipLastModifiedTime": 1631594886009,
+                    "itemsNo": "Sale 300",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 400/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 400.zip",
+                    "zipLastModifiedTime": 1631594897248,
+                    "itemsNo": "Sale 400",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 500/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 500.zip",
+                    "zipLastModifiedTime": 1631594892042,
+                    "itemsNo": "Sale 500",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 600/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 600.zip",
+                    "zipLastModifiedTime": 1631594893160,
+                    "itemsNo": "Sale 600",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 700/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 700.zip",
+                    "zipLastModifiedTime": 1631594889152,
+                    "itemsNo": "Sale 700",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 800/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 800.zip",
+                    "zipLastModifiedTime": 1631594896252,
+                    "itemsNo": "Sale 800",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Sale/Sale 900/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Sale/Sale 900.zip",
+                    "zipLastModifiedTime": 1631594881983,
+                    "itemsNo": "Sale 900",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Sale",
+            "priority": 200
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 100.zip",
+                    "zipLastModifiedTime": 1631595007220,
+                    "itemsNo": "Style 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 1000.zip",
+                    "zipLastModifiedTime": 1631595002076,
+                    "itemsNo": "Style 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 200.zip",
+                    "zipLastModifiedTime": 1631595008723,
+                    "itemsNo": "Style 200",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 300/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 300.zip",
+                    "zipLastModifiedTime": 1631595013695,
+                    "itemsNo": "Style 300",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 400/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 400.zip",
+                    "zipLastModifiedTime": 1631595010395,
+                    "itemsNo": "Style 400",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 500/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 500.zip",
+                    "zipLastModifiedTime": 1631595004845,
+                    "itemsNo": "Style 500",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 600/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 600.zip",
+                    "zipLastModifiedTime": 1631595017703,
+                    "itemsNo": "Style 600",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 700/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 700.zip",
+                    "zipLastModifiedTime": 1631595016269,
+                    "itemsNo": "Style 700",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 800/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 800.zip",
+                    "zipLastModifiedTime": 1631595011898,
+                    "itemsNo": "Style 800",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Style/Style 900/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Style/Style 900.zip",
+                    "zipLastModifiedTime": 1631595003643,
+                    "itemsNo": "Style 900",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Style",
+            "priority": 100
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 100.zip",
+                    "zipLastModifiedTime": 1631594658781,
+                    "itemsNo": "Travel 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 1000.zip",
+                    "zipLastModifiedTime": 1631594653430,
+                    "itemsNo": "Travel 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 200.zip",
+                    "zipLastModifiedTime": 1631594647781,
+                    "itemsNo": "Travel 200",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 300/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 300.zip",
+                    "zipLastModifiedTime": 1631594662454,
+                    "itemsNo": "Travel 300",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 400/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 400.zip",
+                    "zipLastModifiedTime": 1631594668010,
+                    "itemsNo": "Travel 400",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 500/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 500.zip",
+                    "zipLastModifiedTime": 1631594656401,
+                    "itemsNo": "Travel 500",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 600/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 600.zip",
+                    "zipLastModifiedTime": 1631594666060,
+                    "itemsNo": "Travel 600",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 700/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 700.zip",
+                    "zipLastModifiedTime": 1631594669434,
+                    "itemsNo": "Travel 700",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 800/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 800.zip",
+                    "zipLastModifiedTime": 1631594663922,
+                    "itemsNo": "Travel 800",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Travel/Travel 900/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 331
+                    },
+                    "zipFile": "Travel/Travel 900.zip",
+                    "zipLastModifiedTime": 1631594665191,
+                    "itemsNo": "Travel 900",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Travel",
+            "priority": 300
+        }
+    ],
+    "responseString": ""
+}
