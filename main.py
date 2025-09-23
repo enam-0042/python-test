@@ -8,6 +8,7 @@ from lifespan import lifespan
 from core.config import settings
 from services.save_file import check_and_save_file
 from store.global_store import global_store
+from routes.api import api_router
 app = FastAPI(
     title="Trending API",
     openapi_url=f"/trending/api/v1/openapi.json",
@@ -26,6 +27,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
+app.include_router(api_router)
 
 @app.get("/", tags=["Root"])
 def read_root():
@@ -34,15 +36,15 @@ def read_root():
     """
     return {"message": f"Welcome to Trending Api "}
 
-@app.get("/create", tags=["Create JSON"])
-def create_json():
-    """
-    A Forced Creation for files endpoint for the API root.
-    """
-    check_and_save_file(forced_call=True)
-    # create_poster_json(settings.BASE_DIRECTORY, output_filename='posters' , type_directory='posters')
-    # create_poster_json(settings.BASE_DIRECTORY, output_filename='logos' , type_directory='logos')
-    return {"message": f"Welcome to Trending Api "}
+# @app.get("/create", tags=["Create JSON"])
+# def create_json():
+#     """
+#     A Forced Creation for files endpoint for the API root.
+#     """
+#     check_and_save_file(forced_call=True)
+#     # create_poster_json(settings.BASE_DIRECTORY, output_filename='posters' , type_directory='posters')
+#     # create_poster_json(settings.BASE_DIRECTORY, output_filename='logos' , type_directory='logos')
+#     return {"message": f"Welcome to Trending Api "}
 
 
 @app.get("/api/v2/templates/{user_id}")

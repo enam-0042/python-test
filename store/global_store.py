@@ -12,10 +12,7 @@ class GlobalStore:
     def __new__(cls):
         if cls._solo_instance is None:
             cls._solo_instance = super(GlobalStore, cls).__new__(cls)
-            cls._solo_instance._store: Dict[str, Dict] = {
-                "posters": None,
-                "logos": None
-            }
+            cls._solo_instance._store: Dict[str, Dict] = {}
             cls._solo_instance._category_list : List = []
         return cls._solo_instance
     
@@ -25,17 +22,19 @@ class GlobalStore:
 
 
     def get_store_data(self, title:str) -> Optional[Any]:
-        # print(self._store)
-        # return self._store[title]
         return self._store.get(title)
     def set_store_data(self, title:str, data:Any) :
         self._store[title] = data
+
+
+
     def match_previous_data(self, title:str, data:Any) ->bool:
         print('here is mactching' , self._store[title])
         return self._store.get(title) == data
   
     def get_category_list(self) -> List:
-        return self._category_list
+        category_list=self._category_list
+        return category_list
     
     def set_category_list(self , categories:List):
         self._category_list= categories

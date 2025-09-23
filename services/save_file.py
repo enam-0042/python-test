@@ -6,6 +6,7 @@ def check_and_save_file(forced_call:bool):
         global_store.reset_all_data()
     create_category(settings.BASE_DIRECTORY)
     categories= global_store.get_category_list()
+    # print(categories)
 
     for category in categories :
         category_data =   create_poster_json(settings.BASE_DIRECTORY, output_filename=category , type_directory=category)
@@ -21,4 +22,4 @@ def check_and_save_file(forced_call:bool):
             print('not saved')
 
 # if __name__== "__main__":
-    
+     

@@ -1,0 +1,20 @@
+{
+    "list": [
+        {
+            "items": [],
+            "logoTypeName": "banners",
+            "priority": -1
+        },
+        {
+            "items": [],
+            "logoTypeName": "posts",
+            "priority": -1
+        },
+        {
+            "items": [],
+            "logoTypeName": "wallpapers",
+            "priority": -1
+        }
+    ],
+    "responseString": ""
+}
