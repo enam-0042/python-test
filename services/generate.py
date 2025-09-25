@@ -37,16 +37,13 @@ def create_poster_json(root_path, output_filename="posters", type_directory= "po
 
     all_items = []
     directory_type_path = Path(root_path)/(type_directory)
-    # print(root_path)
+
     for category_name in sorted(os.listdir(directory_type_path)):
         category_path =  (directory_type_path)/ Path(category_name)
-        # print(category_path)
         category_priority=-1
-        # print(category_name)
-        # if(output_filename=='invitations'):
-        #     print(category_name)
+
         category_csv = Path(category_path)/f'''{category_name}.csv'''
-        print(category_csv)
+
         if  os.path.exists(category_csv):
             # print('hererere')
             df = pd.read_csv(category_csv, header=None)
@@ -65,7 +62,7 @@ def create_poster_json(root_path, output_filename="posters", type_directory= "po
                 continue
 
             item_name = os.path.splitext(file_name)[0]
-
+            print('item ----->', file_name)
             zip_file_path= Path(category_path)/ file_name
             item_folder_path = Path(category_path)/item_name
 
@@ -75,9 +72,12 @@ def create_poster_json(root_path, output_filename="posters", type_directory= "po
             img_name= filename_with_extension.split('/')[-1]
             placeholder_image_path = Path(item_folder_path) / (img_name)
 
-            
+            # print(item_folder_path)
             placeholder_csv_path = Path(item_folder_path) / f'''1.csv'''
-            placeholder_csv_path= Path(category_path) / placeholder_csv_path
+            # print('hola ----> ', placeholder_image_path)
+            # placeholder_csv_path= Path(category_path) / placeholder_csv_path
+            # print('hola ----> ', placeholder_csv_path)
+            # print(placeholder_csv_path)
             # if category_name=='Creativity':
             #     print(file_name)
             #     print(item_folder_path)

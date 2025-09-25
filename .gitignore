@@ -1,3 +1,5 @@
 venv/
- __pychache__
+ __pychache__/
  **/__pychache__/
+ output/
+ .pyc

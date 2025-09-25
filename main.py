@@ -47,13 +47,13 @@ def read_root():
 #     return {"message": f"Welcome to Trending Api "}
 
 
-@app.get("/api/v2/templates/{user_id}")
-async def read_user(user_id: str):
+# @app.get("/api/v2/templates/{user_id}")
+# async def read_user(user_id: str):
     
-    response = global_store.get_category_data(category_name=user_id)
-    if type(response) == str:
-        return "invalid request"
+#     response = global_store.get_category_data(category_name=user_id)
+#     if type(response) == str:
+#         return "invalid request"
     
-    return {user_id: response}
+#     return {user_id: response}
 
 # @app.get("/api/v2/trending/{}")
