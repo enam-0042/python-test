@@ -1,0 +1,2241 @@
+{
+    "list": [
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Anniversary/Anniversary 5000.zip",
+                    "zipLastModifiedTime": 1758600940233,
+                    "itemsNo": "Anniversary 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Anniversary/Anniversary 8000.zip",
+                    "zipLastModifiedTime": 1758600939410,
+                    "itemsNo": "Anniversary 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Anniversary/Anniversary 10000.zip",
+                    "zipLastModifiedTime": 1758600943277,
+                    "itemsNo": "Anniversary 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Anniversary/Anniversary 6000.zip",
+                    "zipLastModifiedTime": 1758600946993,
+                    "itemsNo": "Anniversary 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Anniversary/Anniversary 3000.zip",
+                    "zipLastModifiedTime": 1758600948413,
+                    "itemsNo": "Anniversary 3000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Anniversary/Anniversary 1000.zip",
+                    "zipLastModifiedTime": 1758600951570,
+                    "itemsNo": "Anniversary 1000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Anniversary/Anniversary 9000.zip",
+                    "zipLastModifiedTime": 1758600951210,
+                    "itemsNo": "Anniversary 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Anniversary/Anniversary 7000.zip",
+                    "zipLastModifiedTime": 1758600953830,
+                    "itemsNo": "Anniversary 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Anniversary/Anniversary 2000.zip",
+                    "zipLastModifiedTime": 1758600956457,
+                    "itemsNo": "Anniversary 2000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Anniversary/Anniversary 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Anniversary/Anniversary 4000.zip",
+                    "zipLastModifiedTime": 1758600955650,
+                    "itemsNo": "Anniversary 4000",
+                    "promo": true
+                }
+            ],
+            "logoTypeName": "Anniversary",
+            "priority": 100
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 2/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 2.zip",
+                    "zipLastModifiedTime": 1758602328760,
+                    "itemsNo": "Baby Shower 2",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 10/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 10.zip",
+                    "zipLastModifiedTime": 1758602329413,
+                    "itemsNo": "Baby Shower 10",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 9/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 9.zip",
+                    "zipLastModifiedTime": 1758602331923,
+                    "itemsNo": "Baby Shower 9",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 7/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 7.zip",
+                    "zipLastModifiedTime": 1758602332217,
+                    "itemsNo": "Baby Shower 7",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 8/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 8.zip",
+                    "zipLastModifiedTime": 1758602333463,
+                    "itemsNo": "Baby Shower 8",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 4/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 4.zip",
+                    "zipLastModifiedTime": 1758602334000,
+                    "itemsNo": "Baby Shower 4",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 6/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 6.zip",
+                    "zipLastModifiedTime": 1758602335303,
+                    "itemsNo": "Baby Shower 6",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 3/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 3.zip",
+                    "zipLastModifiedTime": 1758602335597,
+                    "itemsNo": "Baby Shower 3",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 1/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 1.zip",
+                    "zipLastModifiedTime": 1758602337090,
+                    "itemsNo": "Baby Shower 1",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Baby Shower/Baby Shower 5/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Baby Shower/Baby Shower 5.zip",
+                    "zipLastModifiedTime": 1758602337373,
+                    "itemsNo": "Baby Shower 5",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Baby Shower",
+            "priority": 1300
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 600/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Birthday/Birthday 600.zip",
+                    "zipLastModifiedTime": 1758601703437,
+                    "itemsNo": "Birthday 600",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 900/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Birthday/Birthday 900.zip",
+                    "zipLastModifiedTime": 1758601703947,
+                    "itemsNo": "Birthday 900",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 700/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Birthday/Birthday 700.zip",
+                    "zipLastModifiedTime": 1758601705973,
+                    "itemsNo": "Birthday 700",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 500/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Birthday/Birthday 500.zip",
+                    "zipLastModifiedTime": 1758601705490,
+                    "itemsNo": "Birthday 500",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 400/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Birthday/Birthday 400.zip",
+                    "zipLastModifiedTime": 1758601707030,
+                    "itemsNo": "Birthday 400",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 800/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Birthday/Birthday 800.zip",
+                    "zipLastModifiedTime": 1758601708513,
+                    "itemsNo": "Birthday 800",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 100/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Birthday/Birthday 100.zip",
+                    "zipLastModifiedTime": 1758601710547,
+                    "itemsNo": "Birthday 100",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 200/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Birthday/Birthday 200.zip",
+                    "zipLastModifiedTime": 1758601710340,
+                    "itemsNo": "Birthday 200",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 250/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Birthday/Birthday 250.zip",
+                    "zipLastModifiedTime": 1758601712137,
+                    "itemsNo": "Birthday 250",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Birthday/Birthday 300/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Birthday/Birthday 300.zip",
+                    "zipLastModifiedTime": 1758601712577,
+                    "itemsNo": "Birthday 300",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Birthday",
+            "priority": 1100
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Diwali/Diwali 6000.zip",
+                    "zipLastModifiedTime": 1758603720520,
+                    "itemsNo": "Diwali 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Diwali/Diwali 7000.zip",
+                    "zipLastModifiedTime": 1758603720660,
+                    "itemsNo": "Diwali 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Diwali/Diwali 10000.zip",
+                    "zipLastModifiedTime": 1758603722560,
+                    "itemsNo": "Diwali 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Diwali/Diwali 2000.zip",
+                    "zipLastModifiedTime": 1758603723210,
+                    "itemsNo": "Diwali 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Diwali/Diwali 1000.zip",
+                    "zipLastModifiedTime": 1758603726630,
+                    "itemsNo": "Diwali 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Diwali/Diwali 4000.zip",
+                    "zipLastModifiedTime": 1758603726300,
+                    "itemsNo": "Diwali 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Diwali/Diwali 5000.zip",
+                    "zipLastModifiedTime": 1758603728617,
+                    "itemsNo": "Diwali 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Diwali/Diwali 3000.zip",
+                    "zipLastModifiedTime": 1758603731717,
+                    "itemsNo": "Diwali 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Diwali/Diwali 9000.zip",
+                    "zipLastModifiedTime": 1758603731437,
+                    "itemsNo": "Diwali 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Diwali/Diwali 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Diwali/Diwali 8000.zip",
+                    "zipLastModifiedTime": 1758603734493,
+                    "itemsNo": "Diwali 8000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Diwali",
+            "priority": 1000
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Easter Day/Easter day 9000.zip",
+                    "zipLastModifiedTime": 1758602189813,
+                    "itemsNo": "Easter day 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Easter Day/Easter day 7000.zip",
+                    "zipLastModifiedTime": 1758602190470,
+                    "itemsNo": "Easter day 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Easter Day/Easter day 5000.zip",
+                    "zipLastModifiedTime": 1758602192107,
+                    "itemsNo": "Easter day 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Easter Day/Easter day 8000.zip",
+                    "zipLastModifiedTime": 1758602192270,
+                    "itemsNo": "Easter day 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Easter Day/Easter day 3000.zip",
+                    "zipLastModifiedTime": 1758602194897,
+                    "itemsNo": "Easter day 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Easter Day/Easter day 1000.zip",
+                    "zipLastModifiedTime": 1758602194070,
+                    "itemsNo": "Easter day 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Easter Day/Easter day 2000.zip",
+                    "zipLastModifiedTime": 1758602196937,
+                    "itemsNo": "Easter day 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Easter Day/Easter day 6000.zip",
+                    "zipLastModifiedTime": 1758602197420,
+                    "itemsNo": "Easter day 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Easter Day/Easter day 4000.zip",
+                    "zipLastModifiedTime": 1758602198733,
+                    "itemsNo": "Easter day 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Easter Day/Easter day 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Easter Day/Easter day 10000.zip",
+                    "zipLastModifiedTime": 1758602199217,
+                    "itemsNo": "Easter day 10000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Easter Day",
+            "priority": 700
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 7000.zip",
+                    "zipLastModifiedTime": 1758599833873,
+                    "itemsNo": "Eid Al Fitar 7000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 15000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 15000.zip",
+                    "zipLastModifiedTime": 1758599836410,
+                    "itemsNo": "Eid Al Fitar 15000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 2000.zip",
+                    "zipLastModifiedTime": 1758599840690,
+                    "itemsNo": "Eid Al Fitar 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 8000.zip",
+                    "zipLastModifiedTime": 1758599839187,
+                    "itemsNo": "Eid Al Fitar 8000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 4000.zip",
+                    "zipLastModifiedTime": 1758599844623,
+                    "itemsNo": "Eid Al Fitar 4000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 5000.zip",
+                    "zipLastModifiedTime": 1758599844243,
+                    "itemsNo": "Eid Al Fitar 5000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 11000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 11000.zip",
+                    "zipLastModifiedTime": 1758599847790,
+                    "itemsNo": "Eid Al Fitar 11000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 1000.zip",
+                    "zipLastModifiedTime": 1758599847697,
+                    "itemsNo": "Eid Al Fitar 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 10000.zip",
+                    "zipLastModifiedTime": 1758599850243,
+                    "itemsNo": "Eid Al Fitar 10000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 6000.zip",
+                    "zipLastModifiedTime": 1758599851360,
+                    "itemsNo": "Eid Al Fitar 6000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 3000.zip",
+                    "zipLastModifiedTime": 1758599853590,
+                    "itemsNo": "Eid Al Fitar 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 13000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 13000.zip",
+                    "zipLastModifiedTime": 1758599853683,
+                    "itemsNo": "Eid Al Fitar 13000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 12000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 12000.zip",
+                    "zipLastModifiedTime": 1758599856143,
+                    "itemsNo": "Eid Al Fitar 12000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 9000.zip",
+                    "zipLastModifiedTime": 1758599856737,
+                    "itemsNo": "Eid Al Fitar 9000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Eid Al-Fitr/Eid Al Fitar 14000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Eid Al-Fitr/Eid Al Fitar 14000.zip",
+                    "zipLastModifiedTime": 1758599859450,
+                    "itemsNo": "Eid Al Fitar 14000",
+                    "promo": true
+                }
+            ],
+            "logoTypeName": "Eid Al-Fitr",
+            "priority": 1610
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Friends Giving/Friends giving 3000.zip",
+                    "zipLastModifiedTime": 1758601806310,
+                    "itemsNo": "Friends giving 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Friends Giving/Friends giving 4000.zip",
+                    "zipLastModifiedTime": 1758601808260,
+                    "itemsNo": "Friends giving 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Friends Giving/Friends giving 6000.zip",
+                    "zipLastModifiedTime": 1758601808613,
+                    "itemsNo": "Friends giving 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Friends Giving/Friends giving 9000.zip",
+                    "zipLastModifiedTime": 1758601810037,
+                    "itemsNo": "Friends giving 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Friends Giving/Friends giving 2000.zip",
+                    "zipLastModifiedTime": 1758601810400,
+                    "itemsNo": "Friends giving 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Friends Giving/Friends giving 8000.zip",
+                    "zipLastModifiedTime": 1758601812697,
+                    "itemsNo": "Friends giving 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Friends Giving/Friends giving 7000.zip",
+                    "zipLastModifiedTime": 1758601813607,
+                    "itemsNo": "Friends giving 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Friends Giving/Friends giving 5000.zip",
+                    "zipLastModifiedTime": 1758601814233,
+                    "itemsNo": "Friends giving 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Friends Giving/Friends giving 1000.zip",
+                    "zipLastModifiedTime": 1758601815397,
+                    "itemsNo": "Friends giving 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Friends Giving/Friends giving 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Friends Giving/Friends giving 10000.zip",
+                    "zipLastModifiedTime": 1758601816030,
+                    "itemsNo": "Friends giving 10000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Friends Giving",
+            "priority": 900
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 11000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Funeral/Funeral 11000.zip",
+                    "zipLastModifiedTime": 1758600713030,
+                    "itemsNo": "Funeral 11000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 16000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Funeral/Funeral 16000.zip",
+                    "zipLastModifiedTime": 1758600717947,
+                    "itemsNo": "Funeral 16000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 13000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Funeral/Funeral 13000.zip",
+                    "zipLastModifiedTime": 1758600717427,
+                    "itemsNo": "Funeral 13000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 14000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Funeral/Funeral 14000.zip",
+                    "zipLastModifiedTime": 1758600719977,
+                    "itemsNo": "Funeral 14000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 12000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Funeral/Funeral 12000.zip",
+                    "zipLastModifiedTime": 1758600720737,
+                    "itemsNo": "Funeral 12000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 19000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Funeral/Funeral 19000.zip",
+                    "zipLastModifiedTime": 1758600721513,
+                    "itemsNo": "Funeral 19000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 15000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Funeral/Funeral 15000.zip",
+                    "zipLastModifiedTime": 1758600725690,
+                    "itemsNo": "Funeral 15000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Funeral/Funeral 10000.zip",
+                    "zipLastModifiedTime": 1758600723783,
+                    "itemsNo": "Funeral 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Funeral/Funeral 18000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Funeral/Funeral 18000.zip",
+                    "zipLastModifiedTime": 1758600726583,
+                    "itemsNo": "Funeral 18000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Funeral",
+            "priority": 1200
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Graduation/Graduation 4000.zip",
+                    "zipLastModifiedTime": 1758602574687,
+                    "itemsNo": "Graduation 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Graduation/Graduation 9000.zip",
+                    "zipLastModifiedTime": 1758602568167,
+                    "itemsNo": "Graduation 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Graduation/Graduation 10000.zip",
+                    "zipLastModifiedTime": 1758602579270,
+                    "itemsNo": "Graduation 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Graduation/Graduation 3000.zip",
+                    "zipLastModifiedTime": 1758602578270,
+                    "itemsNo": "Graduation 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Graduation/Graduation 6000.zip",
+                    "zipLastModifiedTime": 1758602584263,
+                    "itemsNo": "Graduation 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Graduation/Graduation 7000.zip",
+                    "zipLastModifiedTime": 1758602583083,
+                    "itemsNo": "Graduation 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Graduation/Graduation 1000.zip",
+                    "zipLastModifiedTime": 1758602587003,
+                    "itemsNo": "Graduation 1000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Graduation/Graduation 2000.zip",
+                    "zipLastModifiedTime": 1758602591503,
+                    "itemsNo": "Graduation 2000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Graduation/Graduation 5000.zip",
+                    "zipLastModifiedTime": 1758602592580,
+                    "itemsNo": "Graduation 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Graduation/Graduation 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Graduation/Graduation 8000.zip",
+                    "zipLastModifiedTime": 1758602593560,
+                    "itemsNo": "Graduation 8000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Graduation",
+            "priority": 400
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "New Year/New Year 6000.zip",
+                    "zipLastModifiedTime": 1758603911577,
+                    "itemsNo": "New Year 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "New Year/New Year 2000.zip",
+                    "zipLastModifiedTime": 1758603913197,
+                    "itemsNo": "New Year 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "New Year/New Year 9000.zip",
+                    "zipLastModifiedTime": 1758603913607,
+                    "itemsNo": "New Year 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "New Year/New Year 5000.zip",
+                    "zipLastModifiedTime": 1758603915503,
+                    "itemsNo": "New Year 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "New Year/New Year 4000.zip",
+                    "zipLastModifiedTime": 1758603915890,
+                    "itemsNo": "New Year 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "New Year/New Year 8000.zip",
+                    "zipLastModifiedTime": 1758603917820,
+                    "itemsNo": "New Year 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "New Year/New Year 10000.zip",
+                    "zipLastModifiedTime": 1758603917680,
+                    "itemsNo": "New Year 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "New Year/New Year 7000.zip",
+                    "zipLastModifiedTime": 1758603920003,
+                    "itemsNo": "New Year 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "New Year/New Year 1000.zip",
+                    "zipLastModifiedTime": 1758603919630,
+                    "itemsNo": "New Year 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "New Year/New Year 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "New Year/New Year 3000.zip",
+                    "zipLastModifiedTime": 1758603921690,
+                    "itemsNo": "New Year 3000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "New Year",
+            "priority": 1450
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Party/Party I 2000.zip",
+                    "zipLastModifiedTime": 1758600297757,
+                    "itemsNo": "Party I 2000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Party/Party I 10000.zip",
+                    "zipLastModifiedTime": 1758600295453,
+                    "itemsNo": "Party I 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Party/Party I 9000.zip",
+                    "zipLastModifiedTime": 1758600299323,
+                    "itemsNo": "Party I 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Party/Party I 8000.zip",
+                    "zipLastModifiedTime": 1758600307193,
+                    "itemsNo": "Party I 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Party/Party I 1000.zip",
+                    "zipLastModifiedTime": 1758600303757,
+                    "itemsNo": "Party I 1000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Party/Party I 4000.zip",
+                    "zipLastModifiedTime": 1758600314423,
+                    "itemsNo": "Party I 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Party/Party I 7000.zip",
+                    "zipLastModifiedTime": 1758600315643,
+                    "itemsNo": "Party I 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Party/Party I 5000.zip",
+                    "zipLastModifiedTime": 1758600339897,
+                    "itemsNo": "Party I 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Party/Party I 3000.zip",
+                    "zipLastModifiedTime": 1758600348183,
+                    "itemsNo": "Party I 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Party/Party I 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Party/Party I 6000.zip",
+                    "zipLastModifiedTime": 1758600345367,
+                    "itemsNo": "Party I 6000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Party",
+            "priority": 300
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Ramadan/Ramadan 5000.zip",
+                    "zipLastModifiedTime": 1758603028617,
+                    "itemsNo": "Ramadan 5000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Ramadan/Ramadan 6000.zip",
+                    "zipLastModifiedTime": 1758603030610,
+                    "itemsNo": "Ramadan 6000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 14000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Ramadan/Ramadan 14000.zip",
+                    "zipLastModifiedTime": 1758603031420,
+                    "itemsNo": "Ramadan 14000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 17000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 17000.zip",
+                    "zipLastModifiedTime": 1758603032670,
+                    "itemsNo": "Ramadan 17000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 13000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 13000.zip",
+                    "zipLastModifiedTime": 1758603035847,
+                    "itemsNo": "Ramadan 13000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 2000.zip",
+                    "zipLastModifiedTime": 1758603042103,
+                    "itemsNo": "Ramadan 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Ramadan/Ramadan 8000.zip",
+                    "zipLastModifiedTime": 1758603046423,
+                    "itemsNo": "Ramadan 8000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 12000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Ramadan/Ramadan 12000.zip",
+                    "zipLastModifiedTime": 1758603051933,
+                    "itemsNo": "Ramadan 12000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 19000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 19000.zip",
+                    "zipLastModifiedTime": 1758603065827,
+                    "itemsNo": "Ramadan 19000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 15000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 15000.zip",
+                    "zipLastModifiedTime": 1758603066403,
+                    "itemsNo": "Ramadan 15000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 7000.zip",
+                    "zipLastModifiedTime": 1758603071073,
+                    "itemsNo": "Ramadan 7000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Ramadan/Ramadan 3000.zip",
+                    "zipLastModifiedTime": 1758603074230,
+                    "itemsNo": "Ramadan 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Ramadan/Ramadan 4000.zip",
+                    "zipLastModifiedTime": 1758603073113,
+                    "itemsNo": "Ramadan 4000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 1000.zip",
+                    "zipLastModifiedTime": 1758603075660,
+                    "itemsNo": "Ramadan 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Ramadan/Ramadan 9000.zip",
+                    "zipLastModifiedTime": 1758603077827,
+                    "itemsNo": "Ramadan 9000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 11000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Ramadan/Ramadan 11000.zip",
+                    "zipLastModifiedTime": 1758603080750,
+                    "itemsNo": "Ramadan 11000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 18000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Ramadan/Ramadan 18000.zip",
+                    "zipLastModifiedTime": 1758603082160,
+                    "itemsNo": "Ramadan 18000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 16000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 16000.zip",
+                    "zipLastModifiedTime": 1758603083297,
+                    "itemsNo": "Ramadan 16000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 10000.zip",
+                    "zipLastModifiedTime": 1758603084960,
+                    "itemsNo": "Ramadan 10000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Ramadan/Ramadan 20000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Ramadan/Ramadan 20000.zip",
+                    "zipLastModifiedTime": 1758603087120,
+                    "itemsNo": "Ramadan 20000",
+                    "promo": true
+                }
+            ],
+            "logoTypeName": "Ramadan",
+            "priority": 1600
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Re-Opening/Reopening 6000.zip",
+                    "zipLastModifiedTime": 1758602848133,
+                    "itemsNo": "Reopening 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Re-Opening/Reopening 5000.zip",
+                    "zipLastModifiedTime": 1758602848890,
+                    "itemsNo": "Reopening 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Re-Opening/Reopening 7000.zip",
+                    "zipLastModifiedTime": 1758602850190,
+                    "itemsNo": "Reopening 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Re-Opening/Reopening 4000.zip",
+                    "zipLastModifiedTime": 1758602851980,
+                    "itemsNo": "Reopening 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Re-Opening/Reopening 8000.zip",
+                    "zipLastModifiedTime": 1758602853200,
+                    "itemsNo": "Reopening 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Re-Opening/Reopening 1000.zip",
+                    "zipLastModifiedTime": 1758602853770,
+                    "itemsNo": "Reopening 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Re-Opening/Reopening 2000.zip",
+                    "zipLastModifiedTime": 1758602854973,
+                    "itemsNo": "Reopening 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Re-Opening/Reopening 10000.zip",
+                    "zipLastModifiedTime": 1758602855550,
+                    "itemsNo": "Reopening 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Re-Opening/Reopening 3000.zip",
+                    "zipLastModifiedTime": 1758602857010,
+                    "itemsNo": "Reopening 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Re-Opening/Reopening 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Re-Opening/Reopening 9000.zip",
+                    "zipLastModifiedTime": 1758602857337,
+                    "itemsNo": "Reopening 9000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Re-Opening",
+            "priority": 800
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Save The Date/Save The Date 9000.zip",
+                    "zipLastModifiedTime": 1758601992910,
+                    "itemsNo": "Save The Date 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Save The Date/Save The Date 7000.zip",
+                    "zipLastModifiedTime": 1758601998200,
+                    "itemsNo": "Save The Date 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Save The Date/Save The Date 1000.zip",
+                    "zipLastModifiedTime": 1758601996077,
+                    "itemsNo": "Save The Date 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Save The Date/Save The Date 5000.zip",
+                    "zipLastModifiedTime": 1758601998630,
+                    "itemsNo": "Save The Date 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Save The Date/Save The Date 6000.zip",
+                    "zipLastModifiedTime": 1758602003793,
+                    "itemsNo": "Save The Date 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Save The Date/Save The Date 3000.zip",
+                    "zipLastModifiedTime": 1758602001947,
+                    "itemsNo": "Save The Date 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Save The Date/Save The Date 8000.zip",
+                    "zipLastModifiedTime": 1758602004513,
+                    "itemsNo": "Save The Date 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Save The Date/Save The Date 10000.zip",
+                    "zipLastModifiedTime": 1758602006840,
+                    "itemsNo": "Save The Date 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Save The Date/Save The Date 4000.zip",
+                    "zipLastModifiedTime": 1758602007333,
+                    "itemsNo": "Save The Date 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Save The Date/Save The Date 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Save The Date/Save The Date 2000.zip",
+                    "zipLastModifiedTime": 1758602008873,
+                    "itemsNo": "Save The Date 2000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Save The Date",
+            "priority": 600
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 5000.zip",
+                    "zipLastModifiedTime": 1758604082603,
+                    "itemsNo": "Thanksgiving 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 8000.zip",
+                    "zipLastModifiedTime": 1758604081783,
+                    "itemsNo": "Thanksgiving 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 9000.zip",
+                    "zipLastModifiedTime": 1758604085190,
+                    "itemsNo": "Thanksgiving 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 7000.zip",
+                    "zipLastModifiedTime": 1758604089740,
+                    "itemsNo": "Thanksgiving 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 4000.zip",
+                    "zipLastModifiedTime": 1758604091173,
+                    "itemsNo": "Thanksgiving 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 2000.zip",
+                    "zipLastModifiedTime": 1758604095827,
+                    "itemsNo": "Thanksgiving 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 1000.zip",
+                    "zipLastModifiedTime": 1758604098057,
+                    "itemsNo": "Thanksgiving 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 3000.zip",
+                    "zipLastModifiedTime": 1758604098110,
+                    "itemsNo": "Thanksgiving 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 6000.zip",
+                    "zipLastModifiedTime": 1758604100117,
+                    "itemsNo": "Thanksgiving 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Thanks Giving/Thanksgiving 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Thanks Giving/Thanksgiving 10000.zip",
+                    "zipLastModifiedTime": 1758604099900,
+                    "itemsNo": "Thanksgiving 10000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Thanks Giving",
+            "priority": 500
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 5000.zip",
+                    "zipLastModifiedTime": 1758603522633,
+                    "itemsNo": "Virtual Event 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 2000.zip",
+                    "zipLastModifiedTime": 1758603523170,
+                    "itemsNo": "Virtual Event 2000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 6000.zip",
+                    "zipLastModifiedTime": 1758603524923,
+                    "itemsNo": "Virtual Event 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 10000.zip",
+                    "zipLastModifiedTime": 1758603525713,
+                    "itemsNo": "Virtual Event 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 7000.zip",
+                    "zipLastModifiedTime": 1758603526717,
+                    "itemsNo": "Virtual Event 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 1000.zip",
+                    "zipLastModifiedTime": 1758603527763,
+                    "itemsNo": "Virtual Event 1000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 3000.zip",
+                    "zipLastModifiedTime": 1758603528263,
+                    "itemsNo": "Virtual Event 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 4000.zip",
+                    "zipLastModifiedTime": 1758603530060,
+                    "itemsNo": "Virtual Event 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 9000.zip",
+                    "zipLastModifiedTime": 1758603531090,
+                    "itemsNo": "Virtual Event 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Virtual Event/Virtual Event 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Virtual Event/Virtual Event 8000.zip",
+                    "zipLastModifiedTime": 1758603531850,
+                    "itemsNo": "Virtual Event 8000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Virtual Event",
+            "priority": 1400
+        },
+        {
+            "items": [
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 9000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 9000.zip",
+                    "zipLastModifiedTime": 1758601177007,
+                    "itemsNo": "Weeding Card 9000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 7000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 7000.zip",
+                    "zipLastModifiedTime": 1758601193777,
+                    "itemsNo": "Weeding Card 7000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 5000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 5000.zip",
+                    "zipLastModifiedTime": 1758601188060,
+                    "itemsNo": "Weeding Card 5000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 11000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 11000.zip",
+                    "zipLastModifiedTime": 1758601194350,
+                    "itemsNo": "Weeding Card 11000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 8000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 8000.zip",
+                    "zipLastModifiedTime": 1758601213917,
+                    "itemsNo": "Weeding Card 8000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 15000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 15000.zip",
+                    "zipLastModifiedTime": 1758601198537,
+                    "itemsNo": "Weeding Card 15000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 14000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 14000.zip",
+                    "zipLastModifiedTime": 1758601206720,
+                    "itemsNo": "Weeding Card 14000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 10000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 10000.zip",
+                    "zipLastModifiedTime": 1758601218173,
+                    "itemsNo": "Weeding Card 10000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 6000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Wedding/Weeding Card 6000.zip",
+                    "zipLastModifiedTime": 1758601226193,
+                    "itemsNo": "Weeding Card 6000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 19000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Wedding/Weeding Card 19000.zip",
+                    "zipLastModifiedTime": 1758601220617,
+                    "itemsNo": "Weeding Card 19000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 17000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 17000.zip",
+                    "zipLastModifiedTime": 1758601222437,
+                    "itemsNo": "Weeding Card 17000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 4000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 4000.zip",
+                    "zipLastModifiedTime": 1758601224750,
+                    "itemsNo": "Weeding Card 4000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 20000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 20000.zip",
+                    "zipLastModifiedTime": 1758601226540,
+                    "itemsNo": "Weeding Card 20000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 13000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Wedding/Weeding Card 13000.zip",
+                    "zipLastModifiedTime": 1758601228223,
+                    "itemsNo": "Weeding Card 13000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 1000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 1000.zip",
+                    "zipLastModifiedTime": 1758601243493,
+                    "itemsNo": "Weeding Card 1000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 16000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Wedding/Weeding Card 16000.zip",
+                    "zipLastModifiedTime": 1758601231330,
+                    "itemsNo": "Weeding Card 16000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 12000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 12000.zip",
+                    "zipLastModifiedTime": 1758601233623,
+                    "itemsNo": "Weeding Card 12000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 2000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 186
+                    },
+                    "zipFile": "Wedding/Weeding Card 2000.zip",
+                    "zipLastModifiedTime": 1758601240480,
+                    "itemsNo": "Weeding Card 2000",
+                    "promo": true
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 3000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 250
+                    },
+                    "zipFile": "Wedding/Weeding Card 3000.zip",
+                    "zipLastModifiedTime": 1758601248717,
+                    "itemsNo": "Weeding Card 3000",
+                    "promo": false
+                },
+                {
+                    "placeHolder": {
+                        "placeHolderUrl": "Wedding/Weeding Card 18000/Holder.jpg",
+                        "placeHolderWidth": 186,
+                        "placeHolderHeight": 278
+                    },
+                    "zipFile": "Wedding/Weeding Card 18000.zip",
+                    "zipLastModifiedTime": 1758601246300,
+                    "itemsNo": "Weeding Card 18000",
+                    "promo": false
+                }
+            ],
+            "logoTypeName": "Wedding",
+            "priority": 200
+        }
+    ],
+    "responseString": ""
+}

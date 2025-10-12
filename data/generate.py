@@ -5,7 +5,7 @@ import pandas as pd
 from pathlib import Path
 from core.config import settings
 from store.global_store import global_store
-
+from services import icon_json_generator
 
 def create_category(root):
     categories= []

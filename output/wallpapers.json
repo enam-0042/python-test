@@ -1,0 +1,150 @@
+{
+    "list": [
+        {
+            "items": [],
+            "logoTypeName": "Abstract",
+            "priority": 1100
+        },
+        {
+            "items": [],
+            "logoTypeName": "Ancient",
+            "priority": 800
+        },
+        {
+            "items": [],
+            "logoTypeName": "Animal",
+            "priority": 2500
+        },
+        {
+            "items": [],
+            "logoTypeName": "Bike",
+            "priority": 1900
+        },
+        {
+            "items": [],
+            "logoTypeName": "Bird",
+            "priority": 2700
+        },
+        {
+            "items": [],
+            "logoTypeName": "Car",
+            "priority": 2000
+        },
+        {
+            "items": [],
+            "logoTypeName": "Cartoon",
+            "priority": 1700
+        },
+        {
+            "items": [],
+            "logoTypeName": "Color",
+            "priority": 2100
+        },
+        {
+            "items": [],
+            "logoTypeName": "Drawings",
+            "priority": 2300
+        },
+        {
+            "items": [],
+            "logoTypeName": "Fire",
+            "priority": 2900
+        },
+        {
+            "items": [],
+            "logoTypeName": "Fish",
+            "priority": 2800
+        },
+        {
+            "items": [],
+            "logoTypeName": "Flower",
+            "priority": 2400
+        },
+        {
+            "items": [],
+            "logoTypeName": "Gaming",
+            "priority": 1700
+        },
+        {
+            "items": [],
+            "logoTypeName": "Illustration",
+            "priority": 2200
+        },
+        {
+            "items": [],
+            "logoTypeName": "Mountain",
+            "priority": 1300
+        },
+        {
+            "items": [],
+            "logoTypeName": "Movie",
+            "priority": 1000
+        },
+        {
+            "items": [],
+            "logoTypeName": "Neon",
+            "priority": 900
+        },
+        {
+            "items": [],
+            "logoTypeName": "Pet",
+            "priority": 2600
+        },
+        {
+            "items": [],
+            "logoTypeName": "Rain",
+            "priority": 600
+        },
+        {
+            "items": [],
+            "logoTypeName": "Road",
+            "priority": 1800
+        },
+        {
+            "items": [],
+            "logoTypeName": "Smoke",
+            "priority": 3000
+        },
+        {
+            "items": [],
+            "logoTypeName": "Space",
+            "priority": 1200
+        },
+        {
+            "items": [],
+            "logoTypeName": "Sports",
+            "priority": 1500
+        },
+        {
+            "items": [],
+            "logoTypeName": "Summer",
+            "priority": 1400
+        },
+        {
+            "items": [],
+            "logoTypeName": "Sunset",
+            "priority": 100
+        },
+        {
+            "items": [],
+            "logoTypeName": "Wall",
+            "priority": 700
+        },
+        {
+            "items": [],
+            "logoTypeName": "Water Drop",
+            "priority": 200
+        },
+        {
+            "items": [],
+            "logoTypeName": "Waterfall",
+            "priority": 400
+        },
+        {
+            "items": [],
+            "logoTypeName": "Winter",
+            "priority": 300
+        }
+    ],
+    "responseString": ""
+}

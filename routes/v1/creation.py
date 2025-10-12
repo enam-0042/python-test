@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 from data.trending_data import get_top_trending_data
 logger = get_logger(__name__)
 
-router = APIRouter(prefix='/api/v1', tags=["v1/get-the-latest-json-bro"])
+router = APIRouter(prefix='/api/v1', tags=["v1-bro"])
 @router.get("/latest-json")
 def get_latest_json():
     try:
@@ -25,6 +25,14 @@ def get_latest_json():
 def trending_data_process(category:str):
     response = get_top_trending_data(category=category, limit=3)
     if type(response) == str:
-        return "invalid request"
+        raise HTTPException(status_code=400, detail="error in fetching trending-list")
+    
+    return {"list": response}
+
+@router.get("/category/{category}")
+def category_data_process(category:str):
+    response = global_store.get_category_data(category_name=category)
+    if type(response) == str:
+        raise HTTPException(status_code=400, detail="error in fetching category-data")
     
     return {"list": response}

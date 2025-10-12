@@ -9,9 +9,6 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     BASE_DIRECTORY : str
     JSON_STORE_LOCATION: str 
-    # You can add other configurations like database URLs, secret keys, etc.
-    # For example:
-    # DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./test.db")
 
     class Config:
         # This tells Pydantic to look for a .env file if it exists
