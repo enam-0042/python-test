@@ -5,7 +5,10 @@ import pandas as pd
 from pathlib import Path
 from core.config import settings
 from store.global_store import global_store
-from services import icon_json_generator
+# from services import icon_json_generator
+from core.log_config import get_logger
+
+logger = get_logger()
 
 def create_category(root):
     categories= []
@@ -96,10 +99,10 @@ def save_poster_json(json_data:dict, output_filename:str):
         json_filename = f'''{settings.JSON_STORE_LOCATION}/{output_filename}.json'''
         with open(json_filename, 'w' , encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=4)
-        print(f"✅ Successfully created '{json_filename}' with {len(json_data['list'])} items.")
+        logger.info(f"✅ Successfully created '{json_filename}'.")
 
     except IOError as e:
-        print(f"❌ Error writing to file '{json_filename}': {e}")
+        logger.error(f"❌ Error writing to file '{json_filename}': {e}")
 
 
 if __name__== "__main__":

@@ -18,7 +18,7 @@ def setup_logging(
     )
 
     console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setFormatter(format_string)
+    console_handler.setFormatter(logging.Formatter(format_string))
 
     handlers = [console_handler]
 
@@ -26,7 +26,7 @@ def setup_logging(
         log_path = Path(log_file)
         log_path.parent.mkdir(parents=True, exist_ok=True)
         file_handler = logging.FileHandler(log_file)
-        file_handler.setFormatter(format_string)
+        file_handler.setFormatter(logging.Formatter(format_string))
         handlers.append(file_handler)
     root_logger = logging.getLogger()
     root_logger.handlers.clear()

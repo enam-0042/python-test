@@ -3,7 +3,8 @@ from pathlib import Path
 import os
 from schemas.icon import IconCategory, IconIndividual
 from utils.singleton import singleton
-
+from core.log_config import get_logger
+logger = get_logger()
 @singleton
 class IconService():
     icon_source_path:Path
@@ -17,19 +18,15 @@ class IconService():
             return False
     
 
-    def create_json(self, path):
+    def create_icon_data(self, path):
         if not self.__check_valid(path):
-            return []
-        print('helloo--------------------------------------->', self.icon_source_path)
-        
+            return []        
         final_list = []
         try:
             for category_name in os.listdir(self.icon_source_path):
-                # if category_name!="Wreaths":
-                #     continue
+
                 if category_name.endswith('.zip'):
                     continue
-                # category = os.path.splitext(category_name)[0]
                 category_path = Path(self.icon_source_path)/ category_name
                 category_zip = str(category_path)+ '.zip'
                 category_zip = Path(category_zip)
@@ -41,7 +38,6 @@ class IconService():
                 icon_type_name = category_name
                 priority = None
                 icon_list = []
-                # print(type(category_zip),'   fdsfsdfsdf')
                 for icon_svg in os.listdir(category_path):
                     if icon_svg.endswith('.png'):
                         continue
@@ -54,13 +50,11 @@ class IconService():
                         iconSVG = str(category_name+'/'+icon_svg)
                     else :
                         iconPNG= None
-                    # icon_individual =  IconIndividual( iconSVG=iconSVG,iconPNG=iconPNG)
                     icon_individual = {
                         "iconPNG":iconPNG,
                         "iconSVG":iconSVG
                     }
                     icon_list.append(icon_individual)
-                # print(len(icon_list))
                 icon_category_instance = {
                     "iconTypeName":icon_type_name,
                     "priority":priority,
@@ -71,7 +65,7 @@ class IconService():
                 # print(icon_list)
                 final_list.append(icon_category_instance)
         except Exception as e:
-            print(e)
+            logger.error(f'Error - e')
             return []
         return final_list   
 
