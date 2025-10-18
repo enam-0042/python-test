@@ -62,26 +62,18 @@ def create_poster_json(root_path, output_filename="posters", type_directory= "po
                 continue
 
             item_name = os.path.splitext(file_name)[0]
-            print('item ----->', file_name)
             zip_file_path= Path(category_path)/ file_name
             item_folder_path = Path(category_path)/item_name
 
-            filename_with_extension = str(next(Path(item_folder_path).glob(f"Holder.*"), None))
+            filename_with_extension = str(next(Path(item_folder_path).glob("Holder.*"), None))
   
 
             img_name= filename_with_extension.split('/')[-1]
             placeholder_image_path = Path(item_folder_path) / (img_name)
 
             # print(item_folder_path)
-            placeholder_csv_path = Path(item_folder_path) / f'''1.csv'''
-            # print('hola ----> ', placeholder_image_path)
-            # placeholder_csv_path= Path(category_path) / placeholder_csv_path
-            # print('hola ----> ', placeholder_csv_path)
-            # print(placeholder_csv_path)
-            # if category_name=='Creativity':
-            #     print(file_name)
-            #     print(item_folder_path)
-            # print(placeholder_csv_path)
+            placeholder_csv_path = Path(item_folder_path) / '1.csv'
+  
             promo = True
             if  os.path.exists(placeholder_csv_path):
                 df = pd.read_csv(placeholder_csv_path)
@@ -93,9 +85,7 @@ def create_poster_json(root_path, output_filename="posters", type_directory= "po
                     promo = True 
 
             if os.path.isdir(item_folder_path) and os.path.isfile(placeholder_image_path) and os.path.exists(placeholder_csv_path):
-                # if category_name=='Creativity':
-                    # print(item_folder_path,'\n', placeholder_image_path,'\n', placeholder_csv_path)
-                # Get the zip file's last modified time in milliseconds
+          
                 mod_time_ms = int(os.path.getmtime(zip_file_path) * 1000)
                 image = Image.open(placeholder_image_path)
                 width, height = image.size

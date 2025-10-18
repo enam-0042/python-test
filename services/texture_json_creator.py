@@ -12,33 +12,34 @@ logger = get_logger()
 class TextureService:
     texture_source_path:Path
 
-    def __check_valid(self, path)->bool:
+    def __check_valid(self, path:Path)->bool:
         self.texture_source_path = Path (path) / 'textures'
-        # logger.info("uuuuuuu")
         if self.texture_source_path.exists() and self.texture_source_path.is_dir() :
             return True
         else :
             return False
     
-    def create_texture_data(self, path) -> list:
-        # print('hello this is new world')
-        # logger.info("self.__check_valid(self, path=path)")
-        # self.__check_valid(path=path)
+
+    def create_texture_data(self, path:Path) -> list:
+
         if not self.__check_valid( path=path):
             return []
         
         final_list = []
 
         try:
-            for item in os.listdir(self.texture_source_path):
+            for texture_item in self.texture_source_path.iterdir():
+            # for item in os.listdir(self.texture_source_path):
+                item = texture_item.name
                 item_path = Path(self.texture_source_path)/ item
                 last_modified_time = os.path.getmtime(item_path)
+                item_name = item.split('.')
                 item_data = {
                     "lastModifiedTime": last_modified_time,
-                    "textureImage" : str(item)
+                    "textureImage" : str(item),
+                    "thumbUrl": f'{item_name[0]}.webp'
                 }
                 final_list.append(item_data)
-                # logger.info(f"file name- {texture}")
             return final_list
         except Exception as e:
             logger.error(f'Error happened {e}')
