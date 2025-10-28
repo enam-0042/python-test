@@ -1,7 +1,6 @@
 [
     {
         "logoTypeName": "Facebook Post",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -58,11 +57,11 @@
                 "itemsNo": "Facebook Post 100",
                 "promo": true
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Instagram post",
-        "priority": 100,
         "items": [
             {
                 "placeHolder": {
@@ -779,6 +778,7 @@
                 "itemsNo": "Instagram Post 180",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 100
     }
 ]

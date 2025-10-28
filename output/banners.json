@@ -1,7 +1,6 @@
 [
     {
         "logoTypeName": "Creativity",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -25,11 +24,11 @@
                 "itemsNo": "Creativity 200",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Eid Al-Fitr",
-        "priority": 25,
         "items": [
             {
                 "placeHolder": {
@@ -141,11 +140,11 @@
                 "itemsNo": "Eid Ul FItr - 3000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 25
     },
     {
         "logoTypeName": "Fitness",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -158,11 +157,11 @@
                 "itemsNo": "Fitness 100",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Memorial Day",
-        "priority": 50,
         "items": [
             {
                 "placeHolder": {
@@ -472,11 +471,11 @@
                 "itemsNo": "Memorial_day 9000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 50
     },
     {
         "logoTypeName": "Music",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -489,11 +488,11 @@
                 "itemsNo": "Music 100",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Sale",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -517,11 +516,11 @@
                 "itemsNo": "Sale 200",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Sport",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -534,11 +533,11 @@
                 "itemsNo": "Sport 100",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Youtube Cover",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -595,6 +594,7 @@
                 "itemsNo": "Youtube channel art 300",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     }
 ]

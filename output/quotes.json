@@ -1,7 +1,6 @@
 [
     {
         "logoTypeName": "Education",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -113,11 +112,11 @@
                 "itemsNo": "Education 100",
                 "promo": true
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Family",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -229,11 +228,11 @@
                 "itemsNo": "Family 400",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     },
     {
         "logoTypeName": "Motivation",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -345,6 +344,7 @@
                 "itemsNo": "Motivation 200",
                 "promo": false
             }
-        ]
+        ],
+        "priority": -1
     }
 ]

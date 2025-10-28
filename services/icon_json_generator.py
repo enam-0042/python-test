@@ -55,6 +55,8 @@ class IconService():
                 category_name = category.name
                 if category_name.endswith('.zip'):
                     continue
+                if category_name.endswith('.DStore'):
+                    continue
                 category_path = Path(self.icon_source_path)/ category_name
                 category_zip = str(category_path)+ '.zip'
                 category_zip = Path(category_zip)

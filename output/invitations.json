@@ -1,7 +1,6 @@
 [
     {
         "logoTypeName": "Anniversary",
-        "priority": 100,
         "items": [
             {
                 "placeHolder": {
@@ -113,11 +112,11 @@
                 "itemsNo": "Anniversary 4000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 100
     },
     {
         "logoTypeName": "Baby Shower",
-        "priority": 1300,
         "items": [
             {
                 "placeHolder": {
@@ -229,11 +228,11 @@
                 "itemsNo": "Baby Shower 5",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1300
     },
     {
         "logoTypeName": "Birthday",
-        "priority": 1100,
         "items": [
             {
                 "placeHolder": {
@@ -345,11 +344,11 @@
                 "itemsNo": "Birthday 700",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1100
     },
     {
         "logoTypeName": "Diwali",
-        "priority": 1000,
         "items": [
             {
                 "placeHolder": {
@@ -461,11 +460,11 @@
                 "itemsNo": "Diwali 1000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1000
     },
     {
         "logoTypeName": "Easter Day",
-        "priority": 700,
         "items": [
             {
                 "placeHolder": {
@@ -577,11 +576,11 @@
                 "itemsNo": "Easter day 4000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 700
     },
     {
         "logoTypeName": "Eid Al-Fitr",
-        "priority": 1610,
         "items": [
             {
                 "placeHolder": {
@@ -748,11 +747,11 @@
                 "itemsNo": "Eid Al Fitar 6000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1610
     },
     {
         "logoTypeName": "Friends Giving",
-        "priority": 900,
         "items": [
             {
                 "placeHolder": {
@@ -864,11 +863,11 @@
                 "itemsNo": "Friends giving 7000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 900
     },
     {
         "logoTypeName": "Funeral",
-        "priority": 1200,
         "items": [
             {
                 "placeHolder": {
@@ -980,11 +979,11 @@
                 "itemsNo": "Funeral 15000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1200
     },
     {
         "logoTypeName": "Graduation",
-        "priority": 400,
         "items": [
             {
                 "placeHolder": {
@@ -1096,11 +1095,11 @@
                 "itemsNo": "Graduation 2000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 400
     },
     {
         "logoTypeName": "New Year",
-        "priority": 1450,
         "items": [
             {
                 "placeHolder": {
@@ -1212,11 +1211,11 @@
                 "itemsNo": "New Year 2000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1450
     },
     {
         "logoTypeName": "Party",
-        "priority": 300,
         "items": [
             {
                 "placeHolder": {
@@ -1328,11 +1327,11 @@
                 "itemsNo": "Party I 7000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 300
     },
     {
         "logoTypeName": "Ramadan",
-        "priority": 1600,
         "items": [
             {
                 "placeHolder": {
@@ -1554,11 +1553,11 @@
                 "itemsNo": "Ramadan 20000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1600
     },
     {
         "logoTypeName": "Re-Opening",
-        "priority": 800,
         "items": [
             {
                 "placeHolder": {
@@ -1670,11 +1669,11 @@
                 "itemsNo": "Reopening 5000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 800
     },
     {
         "logoTypeName": "Save The Date",
-        "priority": 600,
         "items": [
             {
                 "placeHolder": {
@@ -1786,11 +1785,11 @@
                 "itemsNo": "Save The Date 8000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 600
     },
     {
         "logoTypeName": "Thanks Giving",
-        "priority": 500,
         "items": [
             {
                 "placeHolder": {
@@ -1902,11 +1901,11 @@
                 "itemsNo": "Thanksgiving 10000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 500
     },
     {
         "logoTypeName": "Virtual Event",
-        "priority": 1400,
         "items": [
             {
                 "placeHolder": {
@@ -2018,11 +2017,11 @@
                 "itemsNo": "Virtual Event 10000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1400
     },
     {
         "logoTypeName": "Wedding",
-        "priority": 200,
         "items": [
             {
                 "placeHolder": {
@@ -2244,6 +2243,7 @@
                 "itemsNo": "Weeding Card 17000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 200
     }
 ]

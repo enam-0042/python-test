@@ -1,7 +1,6 @@
 [
     {
         "logoTypeName": "Abstract",
-        "priority": 2350,
         "items": [
             {
                 "placeHolder": {
@@ -278,11 +277,11 @@
                 "itemsNo": "Abstract poster 1100",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 2350
     },
     {
         "logoTypeName": "Anniversary",
-        "priority": 2100,
         "items": [
             {
                 "placeHolder": {
@@ -1637,11 +1636,11 @@
                 "itemsNo": "Anniversary 40000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2100
     },
     {
         "logoTypeName": "April Fool's Day",
-        "priority": 4200,
         "items": [
             {
                 "placeHolder": {
@@ -1753,11 +1752,11 @@
                 "itemsNo": "April fool 3000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 4200
     },
     {
         "logoTypeName": "Basketball",
-        "priority": 1300,
         "items": [
             {
                 "placeHolder": {
@@ -2419,11 +2418,11 @@
                 "itemsNo": "Basket Ball 22000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1300
     },
     {
         "logoTypeName": "Eid al-Adha",
-        "priority": 5400,
         "items": [
             {
                 "placeHolder": {
@@ -3085,11 +3084,11 @@
                 "itemsNo": "Eid al Adha_700",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 5400
     },
     {
         "logoTypeName": "Fashion",
-        "priority": 300,
         "items": [
             {
                 "placeHolder": {
@@ -4466,11 +4465,11 @@
                 "itemsNo": "fashion_poster 99000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 300
     },
     {
         "logoTypeName": "Father's Day",
-        "priority": 5100,
         "items": [
             {
                 "placeHolder": {
@@ -5132,11 +5131,11 @@
                 "itemsNo": "Father'sDay_300",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 5100
     },
     {
         "logoTypeName": "Food",
-        "priority": 1000,
         "items": [
             {
                 "placeHolder": {
@@ -6271,11 +6270,11 @@
                 "itemsNo": "food_poster 93000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 1000
     },
     {
         "logoTypeName": "Food Menu",
-        "priority": 1100,
         "items": [
             {
                 "placeHolder": {
@@ -6728,11 +6727,11 @@
                 "itemsNo": null,
                 "promo": null
             }
-        ]
+        ],
+        "priority": 1100
     },
     {
         "logoTypeName": "Friendship Day",
-        "priority": 5200,
         "items": [
             {
                 "placeHolder": {
@@ -7394,11 +7393,11 @@
                 "itemsNo": "Friendship Day_3600",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 5200
     },
     {
         "logoTypeName": "Giveaway",
-        "priority": 550,
         "items": [
             {
                 "placeHolder": {
@@ -8390,11 +8389,11 @@
                 "itemsNo": "Give Away_71000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 550
     },
     {
         "logoTypeName": "Halloween",
-        "priority": 5420,
         "items": [
             {
                 "placeHolder": {
@@ -9199,11 +9198,11 @@
                 "itemsNo": "Halloween_5800",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 5420
     },
     {
         "logoTypeName": "Holi",
-        "priority": 5700,
         "items": [
             {
                 "placeHolder": {
@@ -9535,11 +9534,11 @@
                 "itemsNo": "27000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 5700
     },
     {
         "logoTypeName": "Independence Day",
-        "priority": 5880,
         "items": [
             {
                 "placeHolder": {
@@ -10806,11 +10805,11 @@
                 "itemsNo": "Indepen day 28000",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 5880
     },
     {
         "logoTypeName": "Memorial Day",
-        "priority": 4900,
         "items": [
             {
                 "placeHolder": {
@@ -11472,11 +11471,11 @@
                 "itemsNo": "MemorialDay_1000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 4900
     },
     {
         "logoTypeName": "Music",
-        "priority": 270,
         "items": [
             {
                 "placeHolder": {
@@ -12358,11 +12357,11 @@
                 "itemsNo": "Music_6900",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 270
     },
     {
         "logoTypeName": "Party",
-        "priority": 250,
         "items": [
             {
                 "placeHolder": {
@@ -13200,11 +13199,11 @@
                 "itemsNo": "Party_2100",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 250
     },
     {
         "logoTypeName": "Sales & Offers",
-        "priority": 104,
         "items": [
             {
                 "placeHolder": {
@@ -14482,11 +14481,11 @@
                 "itemsNo": "Sales & Offers_10300",
                 "promo": false
             }
-        ]
+        ],
+        "priority": 104
     },
     {
         "logoTypeName": "Summer",
-        "priority": 2500,
         "items": [
             {
                 "placeHolder": {
@@ -15148,11 +15147,11 @@
                 "itemsNo": "Summer day poster 28",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2500
     },
     {
         "logoTypeName": "Travel",
-        "priority": 400,
         "items": [
             {
                 "placeHolder": {
@@ -16034,11 +16033,11 @@
                 "itemsNo": "Travel_2400",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 400
     },
     {
         "logoTypeName": "Winter",
-        "priority": 1900,
         "items": [
             {
                 "placeHolder": {
@@ -16480,11 +16479,11 @@
                 "itemsNo": "Winter 1100",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1900
     },
     {
         "logoTypeName": "Yoga",
-        "priority": 1600,
         "items": [
             {
                 "placeHolder": {
@@ -17003,6 +17002,7 @@
                 "itemsNo": "Yoga poster 10000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1600
     }
 ]

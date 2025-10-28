@@ -1,7 +1,6 @@
 [
     {
         "logoTypeName": "Abstract",
-        "priority": 1100,
         "items": [
             {
                 "placeHolder": {
@@ -828,11 +827,11 @@
                 "itemsNo": "Abstract 30000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1100
     },
     {
         "logoTypeName": "Ancient",
-        "priority": 800,
         "items": [
             {
                 "placeHolder": {
@@ -1527,11 +1526,11 @@
                 "itemsNo": "Ancient 40000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 800
     },
     {
         "logoTypeName": "Animal",
-        "priority": 2500,
         "items": [
             {
                 "placeHolder": {
@@ -2688,11 +2687,11 @@
                 "itemsNo": "Animal 48000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2500
     },
     {
         "logoTypeName": "Bike",
-        "priority": 1900,
         "items": [
             {
                 "placeHolder": {
@@ -3310,11 +3309,11 @@
                 "itemsNo": "Bike 10000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1900
     },
     {
         "logoTypeName": "Bird",
-        "priority": 2700,
         "items": [
             {
                 "placeHolder": {
@@ -4053,11 +4052,11 @@
                 "itemsNo": "Bird 19000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2700
     },
     {
         "logoTypeName": "Car",
-        "priority": 2000,
         "items": [
             {
                 "placeHolder": {
@@ -4906,11 +4905,11 @@
                 "itemsNo": "Car 74000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2000
     },
     {
         "logoTypeName": "Cartoon",
-        "priority": 1700,
         "items": [
             {
                 "placeHolder": {
@@ -5517,11 +5516,11 @@
                 "itemsNo": "Cartoon 51000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1700
     },
     {
         "logoTypeName": "Color",
-        "priority": 2100,
         "items": [
             {
                 "placeHolder": {
@@ -6106,11 +6105,11 @@
                 "itemsNo": "Color 6000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2100
     },
     {
         "logoTypeName": "Drawings",
-        "priority": 2300,
         "items": [
             {
                 "placeHolder": {
@@ -6882,11 +6881,11 @@
                 "itemsNo": "Drawing 15000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2300
     },
     {
         "logoTypeName": "Fire",
-        "priority": 2900,
         "items": [
             {
                 "placeHolder": {
@@ -7416,11 +7415,11 @@
                 "itemsNo": "Fire 30000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2900
     },
     {
         "logoTypeName": "Fish",
-        "priority": 2800,
         "items": [
             {
                 "placeHolder": {
@@ -7994,11 +7993,11 @@
                 "itemsNo": "Fish 50000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2800
     },
     {
         "logoTypeName": "Flower",
-        "priority": 2400,
         "items": [
             {
                 "placeHolder": {
@@ -9023,11 +9022,11 @@
                 "itemsNo": "Flower 63000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2400
     },
     {
         "logoTypeName": "Gaming",
-        "priority": 1700,
         "items": [
             {
                 "placeHolder": {
@@ -9909,11 +9908,11 @@
                 "itemsNo": "Gaming 50000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1700
     },
     {
         "logoTypeName": "Illustration",
-        "priority": 2200,
         "items": [
             {
                 "placeHolder": {
@@ -10421,11 +10420,11 @@
                 "itemsNo": "Illustration 35000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2200
     },
     {
         "logoTypeName": "Mountain",
-        "priority": 1300,
         "items": [
             {
                 "placeHolder": {
@@ -11054,11 +11053,11 @@
                 "itemsNo": "Mountain 27000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1300
     },
     {
         "logoTypeName": "Movie",
-        "priority": 1000,
         "items": [
             {
                 "placeHolder": {
@@ -12160,11 +12159,11 @@
                 "itemsNo": "Movie 81000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1000
     },
     {
         "logoTypeName": "Neon",
-        "priority": 900,
         "items": [
             {
                 "placeHolder": {
@@ -12815,11 +12814,11 @@
                 "itemsNo": "Neon 14000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 900
     },
     {
         "logoTypeName": "Pet",
-        "priority": 2600,
         "items": [
             {
                 "placeHolder": {
@@ -13382,11 +13381,11 @@
                 "itemsNo": "Pet 51000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 2600
     },
     {
         "logoTypeName": "Rain",
-        "priority": 600,
         "items": [
             {
                 "placeHolder": {
@@ -13663,11 +13662,11 @@
                 "itemsNo": "Rain 2500",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 600
     },
     {
         "logoTypeName": "Road",
-        "priority": 1800,
         "items": [
             {
                 "placeHolder": {
@@ -14175,11 +14174,11 @@
                 "itemsNo": "Road 44000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1800
     },
     {
         "logoTypeName": "Smoke",
-        "priority": 3000,
         "items": [
             {
                 "placeHolder": {
@@ -14665,11 +14664,11 @@
                 "itemsNo": "Smoke 38000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 3000
     },
     {
         "logoTypeName": "Space",
-        "priority": 1200,
         "items": [
             {
                 "placeHolder": {
@@ -15243,11 +15242,11 @@
                 "itemsNo": "Space 49000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1200
     },
     {
         "logoTypeName": "Sports",
-        "priority": 1500,
         "items": [
             {
                 "placeHolder": {
@@ -15678,11 +15677,11 @@
                 "itemsNo": "Sports 27000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1500
     },
     {
         "logoTypeName": "Summer",
-        "priority": 1400,
         "items": [
             {
                 "placeHolder": {
@@ -16256,11 +16255,11 @@
                 "itemsNo": "Summer 46000",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 1400
     },
     {
         "logoTypeName": "Sunset",
-        "priority": 100,
         "items": [
             {
                 "placeHolder": {
@@ -16537,11 +16536,11 @@
                 "itemsNo": "Sunset 900",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 100
     },
     {
         "logoTypeName": "Wall",
-        "priority": 700,
         "items": [
             {
                 "placeHolder": {
@@ -16818,11 +16817,11 @@
                 "itemsNo": "Wall 400",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 700
     },
     {
         "logoTypeName": "Water Drop",
-        "priority": 200,
         "items": [
             {
                 "placeHolder": {
@@ -17099,11 +17098,11 @@
                 "itemsNo": "Water Drop 2300",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 200
     },
     {
         "logoTypeName": "Waterfall",
-        "priority": 400,
         "items": [
             {
                 "placeHolder": {
@@ -17380,11 +17379,11 @@
                 "itemsNo": "Waterfall 1900",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 400
     },
     {
         "logoTypeName": "Winter",
-        "priority": 300,
         "items": [
             {
                 "placeHolder": {
@@ -17661,11 +17660,11 @@
                 "itemsNo": "Winter 600",
                 "promo": true
             }
-        ]
+        ],
+        "priority": 300
     },
     {
         "logoTypeName": "3X10M",
-        "priority": -1,
         "items": [
             {
                 "placeHolder": {
@@ -17831,7 +17830,173 @@
                 "zipLastModifiedTime": null,
                 "itemsNo": null,
                 "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": null,
+                    "placeHolderWidth": null,
+                    "placeHolderHeight": null
+                },
+                "zipFile": null,
+                "zipLastModifiedTime": null,
+                "itemsNo": null,
+                "promo": null
             }
-        ]
+        ],
+        "priority": -1
     }
 ]
