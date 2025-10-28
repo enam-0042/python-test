@@ -35,25 +35,3 @@ def read_root():
     A welcome endpoint for the API root.
     """
     return {"message": f"Welcome to Trending Api "}
-
-# @app.get("/create", tags=["Create JSON"])
-# def create_json():
-#     """
-#     A Forced Creation for files endpoint for the API root.
-#     """
-#     check_and_save_file(forced_call=True)
-#     # create_poster_json(settings.BASE_DIRECTORY, output_filename='posters' , type_directory='posters')
-#     # create_poster_json(settings.BASE_DIRECTORY, output_filename='logos' , type_directory='logos')
-#     return {"message": f"Welcome to Trending Api "}
-
-
-# @app.get("/api/v2/templates/{user_id}")
-# async def read_user(user_id: str):
-    
-#     response = global_store.get_category_data(category_name=user_id)
-#     if type(response) == str:
-#         return "invalid request"
-    
-#     return {user_id: response}
-
-# @app.get("/api/v2/trending/{}")

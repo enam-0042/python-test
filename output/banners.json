@@ -1,603 +1,600 @@
-{
-    "list": [
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Creativity/Creativity 100/Holder.jpg",
-                        "placeHolderWidth": 180,
-                        "placeHolderHeight": 115
-                    },
-                    "zipFile": "Creativity/Creativity 100.zip",
-                    "zipLastModifiedTime": 1758537816738,
-                    "itemsNo": "Creativity 100",
-                    "promo": false
+[
+    {
+        "logoTypeName": "Creativity",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Creativity/Creativity 100/Holder.jpg",
+                    "placeHolderWidth": 180,
+                    "placeHolderHeight": 115
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Creativity/Creativity 200/Holder.png",
-                        "placeHolderWidth": 180,
-                        "placeHolderHeight": 115
-                    },
-                    "zipFile": "Creativity/Creativity 200.zip",
-                    "zipLastModifiedTime": 1758537817668,
-                    "itemsNo": "Creativity 200",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Creativity",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 4000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 4000.zip",
-                    "zipLastModifiedTime": 1758536769608,
-                    "itemsNo": "Eid Ul FItr - 4000",
-                    "promo": true
+                "zipFile": "Creativity/Creativity 100.zip",
+                "zipLastModifiedTime": 1758537816,
+                "itemsNo": "Creativity 100",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Creativity/Creativity 200/Holder.png",
+                    "placeHolderWidth": 180,
+                    "placeHolderHeight": 115
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 9000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 9000.zip",
-                    "zipLastModifiedTime": 1758536770541,
-                    "itemsNo": "Eid Ul FItr - 9000",
-                    "promo": true
+                "zipFile": "Creativity/Creativity 200.zip",
+                "zipLastModifiedTime": 1758537817,
+                "itemsNo": "Creativity 200",
+                "promo": false
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Eid Al-Fitr",
+        "priority": 25,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 4000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 2000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 2000.zip",
-                    "zipLastModifiedTime": 1758536771488,
-                    "itemsNo": "Eid Ul FItr - 2000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 4000.zip",
+                "zipLastModifiedTime": 1758536769,
+                "itemsNo": "Eid Ul FItr - 4000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 7000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 1000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 1000.zip",
-                    "zipLastModifiedTime": 1758536773051,
-                    "itemsNo": "Eid Ul FItr - 1000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 7000.zip",
+                "zipLastModifiedTime": 1758536778,
+                "itemsNo": "Eid Ul FItr - 7000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 1000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 8000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 8000.zip",
-                    "zipLastModifiedTime": 1758536773661,
-                    "itemsNo": "Eid Ul FItr - 8000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 1000.zip",
+                "zipLastModifiedTime": 1758536773,
+                "itemsNo": "Eid Ul FItr - 1000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 2000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 5000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 5000.zip",
-                    "zipLastModifiedTime": 1758536776665,
-                    "itemsNo": "Eid Ul FItr - 5000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 2000.zip",
+                "zipLastModifiedTime": 1758536771,
+                "itemsNo": "Eid Ul FItr - 2000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 6000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 10000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 10000.zip",
-                    "zipLastModifiedTime": 1758536776115,
-                    "itemsNo": "Eid Ul FItr - 10000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 6000.zip",
+                "zipLastModifiedTime": 1758536780,
+                "itemsNo": "Eid Ul FItr - 6000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 5000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 3000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 3000.zip",
-                    "zipLastModifiedTime": 1758536779901,
-                    "itemsNo": "Eid Ul FItr - 3000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 5000.zip",
+                "zipLastModifiedTime": 1758536776,
+                "itemsNo": "Eid Ul FItr - 5000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 9000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 7000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 7000.zip",
-                    "zipLastModifiedTime": 1758536778905,
-                    "itemsNo": "Eid Ul FItr - 7000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 9000.zip",
+                "zipLastModifiedTime": 1758536770,
+                "itemsNo": "Eid Ul FItr - 9000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 10000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 6000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Eid Al-Fitr/Eid Ul FItr - 6000.zip",
-                    "zipLastModifiedTime": 1758536780578,
-                    "itemsNo": "Eid Ul FItr - 6000",
-                    "promo": true
-                }
-            ],
-            "logoTypeName": "Eid Al-Fitr",
-            "priority": 25
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Fitness/Fitness 100/Holder.png",
-                        "placeHolderWidth": 180,
-                        "placeHolderHeight": 115
-                    },
-                    "zipFile": "Fitness/Fitness 100.zip",
-                    "zipLastModifiedTime": 1758537839215,
-                    "itemsNo": "Fitness 100",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Fitness",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 10000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 10000.zip",
-                    "zipLastModifiedTime": 1758537145911,
-                    "itemsNo": "Memorial_day 10000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 10000.zip",
+                "zipLastModifiedTime": 1758536776,
+                "itemsNo": "Eid Ul FItr - 10000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 8000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 24000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 24000.zip",
-                    "zipLastModifiedTime": 1758537147228,
-                    "itemsNo": "Memorial_day 24000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 8000.zip",
+                "zipLastModifiedTime": 1758536773,
+                "itemsNo": "Eid Ul FItr - 8000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 3000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 23000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 23000.zip",
-                    "zipLastModifiedTime": 1758537147791,
-                    "itemsNo": "Memorial_day 23000",
-                    "promo": true
+                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 3000.zip",
+                "zipLastModifiedTime": 1758536779,
+                "itemsNo": "Eid Ul FItr - 3000",
+                "promo": true
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Fitness",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Fitness/Fitness 100/Holder.png",
+                    "placeHolderWidth": 180,
+                    "placeHolderHeight": 115
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 9000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 9000.zip",
-                    "zipLastModifiedTime": 1758537151108,
-                    "itemsNo": "Memorial_day 9000",
-                    "promo": true
+                "zipFile": "Fitness/Fitness 100.zip",
+                "zipLastModifiedTime": 1758537839,
+                "itemsNo": "Fitness 100",
+                "promo": false
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Memorial Day",
+        "priority": 50,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 24000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 4000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 4000.zip",
-                    "zipLastModifiedTime": 1758537149938,
-                    "itemsNo": "Memorial_day 4000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 24000.zip",
+                "zipLastModifiedTime": 1758537147,
+                "itemsNo": "Memorial_day 24000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 27000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 1000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 1000.zip",
-                    "zipLastModifiedTime": 1758537151835,
-                    "itemsNo": "Memorial_day 1000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 27000.zip",
+                "zipLastModifiedTime": 1758537168,
+                "itemsNo": "Memorial_day 27000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 19000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 13000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 13000.zip",
-                    "zipLastModifiedTime": 1758537153878,
-                    "itemsNo": "Memorial_day 13000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 19000.zip",
+                "zipLastModifiedTime": 1758537159,
+                "itemsNo": "Memorial_day 19000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 6000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 15000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 15000.zip",
-                    "zipLastModifiedTime": 1758537153721,
-                    "itemsNo": "Memorial_day 15000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 6000.zip",
+                "zipLastModifiedTime": 1758537164,
+                "itemsNo": "Memorial_day 6000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 16000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 7000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 7000.zip",
-                    "zipLastModifiedTime": 1758537155621,
-                    "itemsNo": "Memorial_day 7000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 16000.zip",
+                "zipLastModifiedTime": 1758537157,
+                "itemsNo": "Memorial_day 16000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 7000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 8000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 8000.zip",
-                    "zipLastModifiedTime": 1758537156115,
-                    "itemsNo": "Memorial_day 8000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 7000.zip",
+                "zipLastModifiedTime": 1758537155,
+                "itemsNo": "Memorial_day 7000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 13000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 16000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 16000.zip",
-                    "zipLastModifiedTime": 1758537157248,
-                    "itemsNo": "Memorial_day 16000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 13000.zip",
+                "zipLastModifiedTime": 1758537153,
+                "itemsNo": "Memorial_day 13000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 2000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 14000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 14000.zip",
-                    "zipLastModifiedTime": 1758537158355,
-                    "itemsNo": "Memorial_day 14000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 2000.zip",
+                "zipLastModifiedTime": 1758537160,
+                "itemsNo": "Memorial_day 2000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 12000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 19000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 19000.zip",
-                    "zipLastModifiedTime": 1758537159155,
-                    "itemsNo": "Memorial_day 19000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 12000.zip",
+                "zipLastModifiedTime": 1758537171,
+                "itemsNo": "Memorial_day 12000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 23000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 2000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 2000.zip",
-                    "zipLastModifiedTime": 1758537160038,
-                    "itemsNo": "Memorial_day 2000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 23000.zip",
+                "zipLastModifiedTime": 1758537147,
+                "itemsNo": "Memorial_day 23000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 10000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 18000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 18000.zip",
-                    "zipLastModifiedTime": 1758537161048,
-                    "itemsNo": "Memorial_day 18000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 10000.zip",
+                "zipLastModifiedTime": 1758537145,
+                "itemsNo": "Memorial_day 10000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 20000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 20000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 20000.zip",
-                    "zipLastModifiedTime": 1758537162271,
-                    "itemsNo": "Memorial_day 20000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 20000.zip",
+                "zipLastModifiedTime": 1758537162,
+                "itemsNo": "Memorial_day 20000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 26000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 3000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 3000.zip",
-                    "zipLastModifiedTime": 1758537162681,
-                    "itemsNo": "Memorial_day 3000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 26000.zip",
+                "zipLastModifiedTime": 1758537169,
+                "itemsNo": "Memorial_day 26000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 28000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 6000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 6000.zip",
-                    "zipLastModifiedTime": 1758537164495,
-                    "itemsNo": "Memorial_day 6000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 28000.zip",
+                "zipLastModifiedTime": 1758537166,
+                "itemsNo": "Memorial_day 28000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 11000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 25000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 25000.zip",
-                    "zipLastModifiedTime": 1758537164828,
-                    "itemsNo": "Memorial_day 25000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 11000.zip",
+                "zipLastModifiedTime": 1758537172,
+                "itemsNo": "Memorial_day 11000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 3000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 28000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 28000.zip",
-                    "zipLastModifiedTime": 1758537166171,
-                    "itemsNo": "Memorial_day 28000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 3000.zip",
+                "zipLastModifiedTime": 1758537162,
+                "itemsNo": "Memorial_day 3000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 4000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 21000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 21000.zip",
-                    "zipLastModifiedTime": 1758537168125,
-                    "itemsNo": "Memorial_day 21000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 4000.zip",
+                "zipLastModifiedTime": 1758537149,
+                "itemsNo": "Memorial_day 4000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 18000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 27000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 27000.zip",
-                    "zipLastModifiedTime": 1758537168321,
-                    "itemsNo": "Memorial_day 27000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 18000.zip",
+                "zipLastModifiedTime": 1758537161,
+                "itemsNo": "Memorial_day 18000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 25000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 26000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 26000.zip",
-                    "zipLastModifiedTime": 1758537169805,
-                    "itemsNo": "Memorial_day 26000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 25000.zip",
+                "zipLastModifiedTime": 1758537164,
+                "itemsNo": "Memorial_day 25000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 15000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 17000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 17000.zip",
-                    "zipLastModifiedTime": 1758537170201,
-                    "itemsNo": "Memorial_day 17000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 15000.zip",
+                "zipLastModifiedTime": 1758537153,
+                "itemsNo": "Memorial_day 15000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 17000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 12000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 12000.zip",
-                    "zipLastModifiedTime": 1758537171748,
-                    "itemsNo": "Memorial_day 12000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 17000.zip",
+                "zipLastModifiedTime": 1758537170,
+                "itemsNo": "Memorial_day 17000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 21000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 11000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 11000.zip",
-                    "zipLastModifiedTime": 1758537172081,
-                    "itemsNo": "Memorial_day 11000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 21000.zip",
+                "zipLastModifiedTime": 1758537168,
+                "itemsNo": "Memorial_day 21000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 5000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 5000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 5000.zip",
-                    "zipLastModifiedTime": 1758537173441,
-                    "itemsNo": "Memorial_day 5000",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 5000.zip",
+                "zipLastModifiedTime": 1758537173,
+                "itemsNo": "Memorial_day 5000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 1000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Memorial Day/Memorial_day 22000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Memorial Day/Memorial_day 22000.zip",
-                    "zipLastModifiedTime": 1758537173968,
-                    "itemsNo": "Memorial_day 22000",
-                    "promo": true
-                }
-            ],
-            "logoTypeName": "Memorial Day",
-            "priority": 50
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Music/Music 100/Holder.png",
-                        "placeHolderWidth": 60,
-                        "placeHolderHeight": 38
-                    },
-                    "zipFile": "Music/Music 100.zip",
-                    "zipLastModifiedTime": 1758537128998,
-                    "itemsNo": "Music 100",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Music",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Sale/Sale 200/Holder.png",
-                        "placeHolderWidth": 180,
-                        "placeHolderHeight": 115
-                    },
-                    "zipFile": "Sale/Sale 200.zip",
-                    "zipLastModifiedTime": 1758537081775,
-                    "itemsNo": "Sale 200",
-                    "promo": false
+                "zipFile": "Memorial Day/Memorial_day 1000.zip",
+                "zipLastModifiedTime": 1758537151,
+                "itemsNo": "Memorial_day 1000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 14000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Sale/Sale 100/Holder.png",
-                        "placeHolderWidth": 180,
-                        "placeHolderHeight": 115
-                    },
-                    "zipFile": "Sale/Sale 100.zip",
-                    "zipLastModifiedTime": 1758537092415,
-                    "itemsNo": "Sale 100",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Sale",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Sport/Sport 100/Holder.png",
-                        "placeHolderWidth": 180,
-                        "placeHolderHeight": 115
-                    },
-                    "zipFile": "Sport/Sport 100.zip",
-                    "zipLastModifiedTime": 1758537804431,
-                    "itemsNo": "Sport 100",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Sport",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Youtube Cover/Youtube channel art 100/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Youtube Cover/Youtube channel art 100.zip",
-                    "zipLastModifiedTime": 1758537775048,
-                    "itemsNo": "Youtube channel art 100",
-                    "promo": true
+                "zipFile": "Memorial Day/Memorial_day 14000.zip",
+                "zipLastModifiedTime": 1758537158,
+                "itemsNo": "Memorial_day 14000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 22000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Youtube Cover/Youtube channel art 500/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Youtube Cover/Youtube channel art 500.zip",
-                    "zipLastModifiedTime": 1758537775841,
-                    "itemsNo": "Youtube channel art 500",
-                    "promo": false
+                "zipFile": "Memorial Day/Memorial_day 22000.zip",
+                "zipLastModifiedTime": 1758537173,
+                "itemsNo": "Memorial_day 22000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 8000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Youtube Cover/Youtube channel art 300/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Youtube Cover/Youtube channel art 300.zip",
-                    "zipLastModifiedTime": 1758537777018,
-                    "itemsNo": "Youtube channel art 300",
-                    "promo": false
+                "zipFile": "Memorial Day/Memorial_day 8000.zip",
+                "zipLastModifiedTime": 1758537156,
+                "itemsNo": "Memorial_day 8000",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Memorial Day/Memorial_day 9000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Youtube Cover/Youtube channel art 200/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Youtube Cover/Youtube channel art 200.zip",
-                    "zipLastModifiedTime": 1758537777755,
-                    "itemsNo": "Youtube channel art 200",
-                    "promo": false
+                "zipFile": "Memorial Day/Memorial_day 9000.zip",
+                "zipLastModifiedTime": 1758537151,
+                "itemsNo": "Memorial_day 9000",
+                "promo": true
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Music",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Music/Music 100/Holder.png",
+                    "placeHolderWidth": 60,
+                    "placeHolderHeight": 38
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Youtube Cover/Youtube channel art 400/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 105
-                    },
-                    "zipFile": "Youtube Cover/Youtube channel art 400.zip",
-                    "zipLastModifiedTime": 1758537779271,
-                    "itemsNo": "Youtube channel art 400",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Youtube Cover",
-            "priority": -1
-        }
-    ],
-    "responseString": ""
-}
+                "zipFile": "Music/Music 100.zip",
+                "zipLastModifiedTime": 1758537128,
+                "itemsNo": "Music 100",
+                "promo": false
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Sale",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Sale/Sale 100/Holder.png",
+                    "placeHolderWidth": 180,
+                    "placeHolderHeight": 115
+                },
+                "zipFile": "Sale/Sale 100.zip",
+                "zipLastModifiedTime": 1758537092,
+                "itemsNo": "Sale 100",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Sale/Sale 200/Holder.png",
+                    "placeHolderWidth": 180,
+                    "placeHolderHeight": 115
+                },
+                "zipFile": "Sale/Sale 200.zip",
+                "zipLastModifiedTime": 1758537081,
+                "itemsNo": "Sale 200",
+                "promo": false
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Sport",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Sport/Sport 100/Holder.png",
+                    "placeHolderWidth": 180,
+                    "placeHolderHeight": 115
+                },
+                "zipFile": "Sport/Sport 100.zip",
+                "zipLastModifiedTime": 1758537804,
+                "itemsNo": "Sport 100",
+                "promo": false
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Youtube Cover",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Youtube Cover/Youtube channel art 500/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
+                },
+                "zipFile": "Youtube Cover/Youtube channel art 500.zip",
+                "zipLastModifiedTime": 1758537775,
+                "itemsNo": "Youtube channel art 500",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Youtube Cover/Youtube channel art 100/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
+                },
+                "zipFile": "Youtube Cover/Youtube channel art 100.zip",
+                "zipLastModifiedTime": 1758537775,
+                "itemsNo": "Youtube channel art 100",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Youtube Cover/Youtube channel art 400/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
+                },
+                "zipFile": "Youtube Cover/Youtube channel art 400.zip",
+                "zipLastModifiedTime": 1758537779,
+                "itemsNo": "Youtube channel art 400",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Youtube Cover/Youtube channel art 200/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
+                },
+                "zipFile": "Youtube Cover/Youtube channel art 200.zip",
+                "zipLastModifiedTime": 1758537777,
+                "itemsNo": "Youtube channel art 200",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Youtube Cover/Youtube channel art 300/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 105
+                },
+                "zipFile": "Youtube Cover/Youtube channel art 300.zip",
+                "zipLastModifiedTime": 1758537777,
+                "itemsNo": "Youtube channel art 300",
+                "promo": false
+            }
+        ]
+    }
+]

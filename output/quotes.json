@@ -1,353 +1,350 @@
-{
-    "list": [
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 1000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 1000.zip",
-                    "zipLastModifiedTime": 1758662643929,
-                    "itemsNo": "Education 1000",
-                    "promo": false
+[
+    {
+        "logoTypeName": "Education",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 1000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 900/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 900.zip",
-                    "zipLastModifiedTime": 1758662645665,
-                    "itemsNo": "Education 900",
-                    "promo": false
+                "zipFile": "Education/Education 1000.zip",
+                "zipLastModifiedTime": 1758662643,
+                "itemsNo": "Education 1000",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 200/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 400/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 400.zip",
-                    "zipLastModifiedTime": 1758662645765,
-                    "itemsNo": "Education 400",
-                    "promo": false
+                "zipFile": "Education/Education 200.zip",
+                "zipLastModifiedTime": 1758662649,
+                "itemsNo": "Education 200",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 700/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 100/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 100.zip",
-                    "zipLastModifiedTime": 1758662648592,
-                    "itemsNo": "Education 100",
-                    "promo": true
+                "zipFile": "Education/Education 700.zip",
+                "zipLastModifiedTime": 1758662650,
+                "itemsNo": "Education 700",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 600/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 600/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 600.zip",
-                    "zipLastModifiedTime": 1758662647599,
-                    "itemsNo": "Education 600",
-                    "promo": false
+                "zipFile": "Education/Education 600.zip",
+                "zipLastModifiedTime": 1758662647,
+                "itemsNo": "Education 600",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 800/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 200/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 200.zip",
-                    "zipLastModifiedTime": 1758662649685,
-                    "itemsNo": "Education 200",
-                    "promo": true
+                "zipFile": "Education/Education 800.zip",
+                "zipLastModifiedTime": 1758662651,
+                "itemsNo": "Education 800",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 300/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 700/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 700.zip",
-                    "zipLastModifiedTime": 1758662650575,
-                    "itemsNo": "Education 700",
-                    "promo": false
+                "zipFile": "Education/Education 300.zip",
+                "zipLastModifiedTime": 1758662653,
+                "itemsNo": "Education 300",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 900/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 800/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 800.zip",
-                    "zipLastModifiedTime": 1758662651529,
-                    "itemsNo": "Education 800",
-                    "promo": false
+                "zipFile": "Education/Education 900.zip",
+                "zipLastModifiedTime": 1758662645,
+                "itemsNo": "Education 900",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 400/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 500/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 500.zip",
-                    "zipLastModifiedTime": 1758662652549,
-                    "itemsNo": "Education 500",
-                    "promo": false
+                "zipFile": "Education/Education 400.zip",
+                "zipLastModifiedTime": 1758662645,
+                "itemsNo": "Education 400",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 500/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Education/Education 300/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Education/Education 300.zip",
-                    "zipLastModifiedTime": 1758662653369,
-                    "itemsNo": "Education 300",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Education",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 700/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 700.zip",
-                    "zipLastModifiedTime": 1758662712649,
-                    "itemsNo": "Family 700",
-                    "promo": false
+                "zipFile": "Education/Education 500.zip",
+                "zipLastModifiedTime": 1758662652,
+                "itemsNo": "Education 500",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Education/Education 100/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 300/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 300.zip",
-                    "zipLastModifiedTime": 1758662713515,
-                    "itemsNo": "Family 300",
-                    "promo": false
+                "zipFile": "Education/Education 100.zip",
+                "zipLastModifiedTime": 1758662648,
+                "itemsNo": "Education 100",
+                "promo": true
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Family",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 700/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 200/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 200.zip",
-                    "zipLastModifiedTime": 1758662714615,
-                    "itemsNo": "Family 200",
-                    "promo": false
+                "zipFile": "Family/Family 700.zip",
+                "zipLastModifiedTime": 1758662712,
+                "itemsNo": "Family 700",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 800/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 500/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 500.zip",
-                    "zipLastModifiedTime": 1758662715359,
-                    "itemsNo": "Family 500",
-                    "promo": false
+                "zipFile": "Family/Family 800.zip",
+                "zipLastModifiedTime": 1758662719,
+                "itemsNo": "Family 800",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 300/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 900/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 900.zip",
-                    "zipLastModifiedTime": 1758662716575,
-                    "itemsNo": "Family 900",
-                    "promo": false
+                "zipFile": "Family/Family 300.zip",
+                "zipLastModifiedTime": 1758662713,
+                "itemsNo": "Family 300",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 200/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 100/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 100.zip",
-                    "zipLastModifiedTime": 1758662717195,
-                    "itemsNo": "Family 100",
-                    "promo": true
+                "zipFile": "Family/Family 200.zip",
+                "zipLastModifiedTime": 1758662714,
+                "itemsNo": "Family 200",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 600/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 600/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 600.zip",
-                    "zipLastModifiedTime": 1758662719635,
-                    "itemsNo": "Family 600",
-                    "promo": false
+                "zipFile": "Family/Family 600.zip",
+                "zipLastModifiedTime": 1758662719,
+                "itemsNo": "Family 600",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 1000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 800/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 800.zip",
-                    "zipLastModifiedTime": 1758662719045,
-                    "itemsNo": "Family 800",
-                    "promo": false
+                "zipFile": "Family/Family 1000.zip",
+                "zipLastModifiedTime": 1758662721,
+                "itemsNo": "Family 1000",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 500/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 1000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Family/Family 1000.zip",
-                    "zipLastModifiedTime": 1758662721139,
-                    "itemsNo": "Family 1000",
-                    "promo": false
+                "zipFile": "Family/Family 500.zip",
+                "zipLastModifiedTime": 1758662715,
+                "itemsNo": "Family 500",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 100/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Family/Family 400/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 251
-                    },
-                    "zipFile": "Family/Family 400.zip",
-                    "zipLastModifiedTime": 1758662721849,
-                    "itemsNo": "Family 400",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Family",
-            "priority": -1
-        },
-        {
-            "items": [
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 300/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 300.zip",
-                    "zipLastModifiedTime": 1758662591069,
-                    "itemsNo": "Motivation 300",
-                    "promo": false
+                "zipFile": "Family/Family 100.zip",
+                "zipLastModifiedTime": 1758662717,
+                "itemsNo": "Family 100",
+                "promo": true
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 900/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 100/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 100.zip",
-                    "zipLastModifiedTime": 1758662592685,
-                    "itemsNo": "Motivation 100",
-                    "promo": false
+                "zipFile": "Family/Family 900.zip",
+                "zipLastModifiedTime": 1758662716,
+                "itemsNo": "Family 900",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Family/Family 400/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 251
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 500/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 500.zip",
-                    "zipLastModifiedTime": 1758662592905,
-                    "itemsNo": "Motivation 500",
-                    "promo": false
+                "zipFile": "Family/Family 400.zip",
+                "zipLastModifiedTime": 1758662721,
+                "itemsNo": "Family 400",
+                "promo": false
+            }
+        ]
+    },
+    {
+        "logoTypeName": "Motivation",
+        "priority": -1,
+        "items": [
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 400/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 900/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 900.zip",
-                    "zipLastModifiedTime": 1758662594649,
-                    "itemsNo": "Motivation 900",
-                    "promo": false
+                "zipFile": "Motivation/Motivation 400.zip",
+                "zipLastModifiedTime": 1758662600,
+                "itemsNo": "Motivation 400",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 600/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 800/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 800.zip",
-                    "zipLastModifiedTime": 1758662594489,
-                    "itemsNo": "Motivation 800",
-                    "promo": false
+                "zipFile": "Motivation/Motivation 600.zip",
+                "zipLastModifiedTime": 1758662598,
+                "itemsNo": "Motivation 600",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 1000/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 600/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 600.zip",
-                    "zipLastModifiedTime": 1758662598155,
-                    "itemsNo": "Motivation 600",
-                    "promo": false
+                "zipFile": "Motivation/Motivation 1000.zip",
+                "zipLastModifiedTime": 1758662596,
+                "itemsNo": "Motivation 1000",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 500/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 1000/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 1000.zip",
-                    "zipLastModifiedTime": 1758662596619,
-                    "itemsNo": "Motivation 1000",
-                    "promo": false
+                "zipFile": "Motivation/Motivation 500.zip",
+                "zipLastModifiedTime": 1758662592,
+                "itemsNo": "Motivation 500",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 800/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 200/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 200.zip",
-                    "zipLastModifiedTime": 1758662598599,
-                    "itemsNo": "Motivation 200",
-                    "promo": false
+                "zipFile": "Motivation/Motivation 800.zip",
+                "zipLastModifiedTime": 1758662594,
+                "itemsNo": "Motivation 800",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 300/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 700/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 700.zip",
-                    "zipLastModifiedTime": 1758662599992,
-                    "itemsNo": "Motivation 700",
-                    "promo": false
+                "zipFile": "Motivation/Motivation 300.zip",
+                "zipLastModifiedTime": 1758662591,
+                "itemsNo": "Motivation 300",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 100/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
                 },
-                {
-                    "placeHolder": {
-                        "placeHolderUrl": "Motivation/Motivation 400/Holder.jpg",
-                        "placeHolderWidth": 186,
-                        "placeHolderHeight": 250
-                    },
-                    "zipFile": "Motivation/Motivation 400.zip",
-                    "zipLastModifiedTime": 1758662600579,
-                    "itemsNo": "Motivation 400",
-                    "promo": false
-                }
-            ],
-            "logoTypeName": "Motivation",
-            "priority": -1
-        }
-    ],
-    "responseString": ""
-}
+                "zipFile": "Motivation/Motivation 100.zip",
+                "zipLastModifiedTime": 1758662592,
+                "itemsNo": "Motivation 100",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 900/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
+                },
+                "zipFile": "Motivation/Motivation 900.zip",
+                "zipLastModifiedTime": 1758662594,
+                "itemsNo": "Motivation 900",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 700/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
+                },
+                "zipFile": "Motivation/Motivation 700.zip",
+                "zipLastModifiedTime": 1758662599,
+                "itemsNo": "Motivation 700",
+                "promo": false
+            },
+            {
+                "placeHolder": {
+                    "placeHolderUrl": "Motivation/Motivation 200/Holder.jpg",
+                    "placeHolderWidth": 186,
+                    "placeHolderHeight": 250
+                },
+                "zipFile": "Motivation/Motivation 200.zip",
+                "zipLastModifiedTime": 1758662598,
+                "itemsNo": "Motivation 200",
+                "promo": false
+            }
+        ]
+    }
+]

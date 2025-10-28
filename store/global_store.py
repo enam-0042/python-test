@@ -2,12 +2,6 @@ from typing import Any, Dict, Optional, List
 
 class GlobalStore:
     _solo_instance = None
-    # def __init__(self):
-    #     pass
-        # self._store: Dict[str, Dict] = {
-        #     "posters" : None, 
-        #     "logos" : None
-        # }
 
     def __new__(cls):
         if cls._solo_instance is None:

@@ -24,7 +24,6 @@ def get_top_trending_data(category="invitations", limit=2):
             key = x[1]
             val = temp_dict.get(key)
             trend_data.append(val)
-        # print(trend_data)
     print(len(trend_data))
     return trend_data
 

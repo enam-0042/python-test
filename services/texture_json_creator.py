@@ -12,7 +12,7 @@ logger = get_logger()
 class TextureService:
     texture_source_path:Path
 
-    def __check_valid(self, path:Path)->bool:
+    def _check_valid(self, path:Path)->bool:
         self.texture_source_path = Path (path) / 'textures'
         if self.texture_source_path.exists() and self.texture_source_path.is_dir() :
             return True
@@ -22,7 +22,7 @@ class TextureService:
 
     def create_texture_data(self, path:Path) -> list:
 
-        if not self.__check_valid( path=path):
+        if not self._check_valid( path=path):
             return []
         
         final_list = []

@@ -5,6 +5,8 @@ from schemas.icon import IconCategory, IconIndividual
 from utils.singleton import singleton
 from core.log_config import get_logger
 logger = get_logger()
+
+
 @singleton
 class IconService():
     icon_source_path:Path

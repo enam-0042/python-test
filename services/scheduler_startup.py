@@ -3,6 +3,8 @@ import asyncio
 # from store.global_store import global_store, GlobalStore
 # from core.config import settings
 from data.save_file import check_and_save_file
+from core.config import settings
+from pathlib import Path
 # from services.save_file import check_and_save_file
 async def startup_function():
     while True:
@@ -11,8 +13,11 @@ async def startup_function():
 
 async def check_and_update():
 
-    while True:
-        
-        check_and_save_file(forced_call=False)
+    output_directory = Path(settings.JSON_STORE_LOCATION)
+    if not output_directory.exists():
+        output_directory.mkdir(parents=True, exist_ok=True)
 
+    
+    while True:
+        check_and_save_file(forced_call=False)
         await asyncio.sleep(60*3)
