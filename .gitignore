@@ -1,6 +1,5 @@
 venv/
- __pychache__/
- **/__pychache__/
- output/*
- .pyc*
- log/*
+__pycache__
+output/
+.pyc*
+log/
