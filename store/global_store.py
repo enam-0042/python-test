@@ -23,7 +23,7 @@ class GlobalStore:
 
 
     def match_previous_data(self, title:str, data:Any) ->bool:
-        print('here is mactching' , self._store[title])
+        print('here is matching' , self._store[title])
         return self._store.get(title) == data
   
     def get_category_list(self) -> List:

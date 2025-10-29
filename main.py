@@ -3,10 +3,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 # Create the main FastAPI application instance
-from services.generate import create_poster_json
+# from services.generate import create_poster_json
 from lifespan import lifespan
 from core.config import settings
-from services.save_file import check_and_save_file
+# from services.save_file import check_and_save_file
 from store.global_store import global_store
 from routes.api import api_router
 app = FastAPI(

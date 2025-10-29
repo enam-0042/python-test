@@ -31,7 +31,7 @@ def check_and_save_file(forced_call:bool):
                 save_poster_json(json_data=[] , output_filename=category)
                 logger.error(f'Error - {e}')
             continue 
-        if category == "textures":
+        elif category == "textures":
             try:
                 data_list= texture_service.create_texture_data(settings.BASE_DIRECTORY)
                 BASE_TEXTURE_PATH = Path(settings.BASE_DIRECTORY)/"textures"
@@ -47,18 +47,21 @@ def check_and_save_file(forced_call:bool):
                 save_poster_json(json_data=[] , output_filename=category)
                 logger.error(f'Error - {e}')
             continue
+        try:
+            
+            category_path= Path(settings.BASE_DIRECTORY) / category
+            category_data = other_json_service.create_other_json(category_path, category)       
         
-        category_path= Path(settings.BASE_DIRECTORY) / category
-        category_data = other_json_service.create_other_json(category_path, category)       
-       
-        if fetched_data !=category_data:
-            global_store.set_store_data(title=category, data=category_data)
-            logger.info(category)
-            save_poster_json(json_data=category_data, output_filename=category)
-            logger.info('new files are created')
-        
-        else:
-            logger.info('not saved')
+            if fetched_data !=category_data:
+                global_store.set_store_data(title=category, data=category_data)
+                logger.info(category)
+                save_poster_json(json_data=category_data, output_filename=category)
+                logger.info('new files are created')
+            else:
+                logger.info('not saved')
+        except Exception as e:
+            logger.error(f'Error happened in creating other {e}')   
+             
 
 # if __name__== "__main__":
      

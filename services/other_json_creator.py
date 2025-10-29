@@ -3,6 +3,7 @@ from pathlib import Path
 from pydantic import BaseModel
 from utils.singleton import singleton
 import pandas as pd
+import re
 from core.log_config import get_logger
 from PIL import Image
 logger= get_logger()
@@ -23,6 +24,16 @@ class OtherTypeCreationService:
         "itemsNo": None,
         "promo": None           
     }
+    def _find_holder_file(self, item_path:Path) -> Path | None:
+        for file in item_path.iterdir():
+            if file.is_file() and file.stem.lower() == 'holder':
+                return file
+        # pattern = re.compile(r"Holder\..+", re.IGNORECASE)
+        # for file in item_path.iterdir():
+        #     if file.is_file() and pattern.match(file.name):
+        #         return file
+        return None
+    
 
     def _check_valid(self, path:Path, category:str) ->bool:
         # actually path and category_path has no functional value. this could be escaped
@@ -35,7 +46,7 @@ class OtherTypeCreationService:
     def _get_sub_category_item_list(self, path:Path , category:str) -> tuple[list[dict], int]:
         item_list = []
         parent_category = -1
-        for item in path.iterdir():
+        for item in sorted(path.iterdir()):
             try:
                 # here item like /home/gambler/Documents/poster_server_data/posters/Abstract/Abstract poster 300
                 item_name = item.name
@@ -48,9 +59,14 @@ class OtherTypeCreationService:
                     continue
 
                 # this will look for image that will have Holder as name but format can be anything like .jpg ,.webp
-                holder_file_path_with_extension =str(next(Path(item).glob("Holder.*"), None))
-                holder_img_name = holder_file_path_with_extension.split('/')[-1]
-                holder_img_path = Path(item)/holder_img_name
+                # holder_file_path_with_extension =str(next(Path(item).glob("Holder.*"), None))
+                holder_file_path_with_extension = self._find_holder_file(item_path=item)
+                holder_img_path = Path()
+                holder_img_name = None  
+                if holder_file_path_with_extension is not None:
+                    holder_file_path_with_extension = holder_file_path_with_extension.name
+                    holder_img_name = holder_file_path_with_extension
+                    holder_img_path = Path(item)/holder_img_name
 
                 # this will look for 1.csv file this will contain 'promo' and other value , we focus only in promo 
                 placeholder_csv_path = Path(item ) / '1.csv'
@@ -60,7 +76,7 @@ class OtherTypeCreationService:
                     df = pd.read_csv(placeholder_csv_path)
                     value=df.columns[0]
                     promo=value
-                    if value== "FALSE":
+                    if value.lower()== 'false':
                         promo= False
                     else:
                         promo = True 
@@ -74,7 +90,7 @@ class OtherTypeCreationService:
                     zip_file_name = None
                 if not holder_img_path.is_file():
                     holder_img_name = None
-                # fetch the 'Holder.****' image info, width , height 
+                # fetch the 'Holder/holder/HOLDER.****' image info, width , height 
                 if holder_img_path.is_file():
                     image = Image.open(holder_img_path)
                     width, height = image.size
@@ -95,7 +111,7 @@ class OtherTypeCreationService:
                     item_data = self.default_item_data
             except Exception as e:
                 item_data = self.default_item_data
-                logger.error('while generating ',e)
+                logger.error(f'while generating {category} data Error--->{e}')
             item_list.append(item_data)
         return item_list,parent_category
 
@@ -108,6 +124,7 @@ class OtherTypeCreationService:
         else:
             return []
         category_data_list = []
+        
         for sub_category in path.iterdir():
             try:
                 # here subcategory like /home/gambler/Documents/poster_server_data/posters/Abstract
@@ -115,7 +132,8 @@ class OtherTypeCreationService:
                 
                 # this below logic seems unnecessary , but it has great value. sometime there is 
                 # .DStore type file in this folder. or some unwanted file. should have handle those explicitly
-                
+                # if category=='logos':
+                #     logger.info(sub_category.name)
                 if not sub_category.is_dir():
                     continue
                 
@@ -141,6 +159,7 @@ class OtherTypeCreationService:
 
     def create_other_json(self, path:Path, category )->list:
         # here path is like = /home/.../poster_server_data/posters
+        # category is like 'posters' , 'banners' etc
         if not self._check_valid(path, category):
             logger.warning(f'{category} directory not found')
             return []

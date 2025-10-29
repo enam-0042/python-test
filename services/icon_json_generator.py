@@ -17,12 +17,13 @@ class IconService():
             return True
         else :
             return False
-    
+
+
     def _create_individual_icon_list(self, path:Path)->list:
         icon_list = []
-        try:
-            category_name = path.name
-            for item in path.iterdir():
+        category_name = path.name
+        for item in path.iterdir():
+            try:
                 icon_name = item.name
                 if icon_name.endswith('.png'):
                     continue
@@ -31,19 +32,18 @@ class IconService():
                 icon_png= str(icon_without_extension) + '@3x.png'
                 icon_png_path= Path (path) / icon_png
             
+                iconSVG = str(category_name+'/' + icon_svg)
                 if icon_png_path.is_file():          
                     iconPNG= str(category_name+'/' + icon_png) 
-                    iconSVG = str(category_name+'/' + icon_svg)
                 else :
                     iconPNG= None
-                    iconSVG= str(category_name+'/' + icon_svg)
                 icon_individual = {
                     "iconPNG":iconPNG,
                     "iconSVG":iconSVG
                 }
                 icon_list.append(icon_individual)
-        except Exception as e:
-            logger.exception('error creating individual list' ,e)
+            except Exception as e:
+                logger.exception('error creating individual list' ,e)
         return icon_list
 
     def create_icon_data(self, path:Path):
@@ -57,17 +57,17 @@ class IconService():
                     continue
                 if category_name.endswith('.DStore'):
                     continue
-                category_path = Path(self.icon_source_path)/ category_name
-                category_zip = str(category_path)+ '.zip'
-                category_zip = Path(category_zip)
+                # category_path = Path(self.icon_source_path)/ category_name
+                # category_zip = str(category_path)+ '.zip'
+                category_zip = Path(category)
                 if not category_zip.exists():
                     category_zip = None
                 else:
                     category_zip= category_name+'.zip'
-                last_modified_time = os.path.getmtime(category_path)
+                last_modified_time = os.path.getmtime(category)
                 icon_type_name = category_name
                 priority = None
-                icon_list = self._create_individual_icon_list(category_path)
+                icon_list = self._create_individual_icon_list(category)
  
                 icon_category_instance = {
                     "iconTypeName":icon_type_name,
