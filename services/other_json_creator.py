@@ -36,7 +36,7 @@ class OtherTypeCreationService:
     
 
     def _check_valid(self, path:Path, category:str) ->bool:
-        # actually path and category_path has no functional value. this could be escaped
+        # actually path and category_path has no functional value. this could be skipped
         self.category_path = Path(path) 
         self.path = Path(path)
         if self.category_path.exists() and self.category_path.is_dir():

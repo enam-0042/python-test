@@ -32,17 +32,6 @@
         "items": [
             {
                 "placeHolder": {
-                    "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 1000/Holder.jpg",
-                    "placeHolderWidth": 186,
-                    "placeHolderHeight": 105
-                },
-                "zipFile": "Eid Al-Fitr/Eid Ul FItr - 1000.zip",
-                "zipLastModifiedTime": 1758536773,
-                "itemsNo": "Eid Ul FItr - 1000",
-                "promo": true
-            },
-            {
-                "placeHolder": {
                     "placeHolderUrl": "Eid Al-Fitr/Eid Ul FItr - 10000/Holder.jpg",
                     "placeHolderWidth": 186,
                     "placeHolderHeight": 105

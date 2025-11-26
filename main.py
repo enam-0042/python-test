@@ -28,10 +28,3 @@ app.add_middleware(
 )
 
 app.include_router(api_router)
-
-@app.get("/", tags=["Root"])
-def read_root():
-    """
-    A welcome endpoint for the API root.
-    """
-    return {"message": f"Welcome to Trending Api "}

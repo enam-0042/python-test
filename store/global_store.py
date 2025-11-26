@@ -17,7 +17,7 @@ class GlobalStore:
 
     def get_store_data(self, title:str) -> Optional[Any]:
         return self._store.get(title)
-    def set_store_data(self, title:str, data:Any) :
+    def set_store_data(self, title:str, data:List) :
         self._store[title] = data
 
 
@@ -34,7 +34,7 @@ class GlobalStore:
         self._category_list= categories
         # print(self._category_list)
 
-    def get_category_data(self, category_name:str) -> Any:
+    def get_category_data(self, category_name:str) -> List:
         if category_name not in self._category_list:
             return "no category found"
         category_data= self._store[category_name]

@@ -5,7 +5,7 @@ from data.save_file import check_and_save_file
 
 router = APIRouter(tags=["Route-dont use now"])
 
-@router.get("/create")
+@router.get("/reload")
 def create_json():
     """
     A Forced Creation for files endpoint for the API root.

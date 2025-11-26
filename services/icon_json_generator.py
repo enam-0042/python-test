@@ -22,7 +22,9 @@ class IconService():
     def _create_individual_icon_list(self, path:Path)->list:
         icon_list = []
         category_name = path.name
-        for item in path.iterdir():
+        # currently no priority for individual icons is defined in csv or anywhere, so setting it to None
+        # if future requirement arises, we can modify it accordingly
+        for item in sorted(path.iterdir()):
             try:
                 icon_name = item.name
                 if icon_name.endswith('.png'):
@@ -59,8 +61,9 @@ class IconService():
                     continue
                 # category_path = Path(self.icon_source_path)/ category_name
                 # category_zip = str(category_path)+ '.zip'
-                category_zip = Path(category)
+                category_zip = Path(self.icon_source_path)/ (category_name + '.zip')
                 if not category_zip.exists():
+                    # logger.warning(f'zip file not found for category {category_zip}')
                     category_zip = None
                 else:
                     category_zip= category_name+'.zip'
