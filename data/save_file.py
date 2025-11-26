@@ -64,6 +64,4 @@ def check_and_save_file(forced_call:bool):
         except Exception as e:
             logger.error(f'Error happened in creating other {e}')   
              
-
-# if __name__== "__main__":
      
