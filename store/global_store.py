@@ -8,11 +8,14 @@ class GlobalStore:
             cls._solo_instance = super(GlobalStore, cls).__new__(cls)
             cls._solo_instance._store: Dict[str, Dict] = {}
             cls._solo_instance._category_list : List = []
+            cls._solo_instance._trending_data: Dict[str, List] = {}
         return cls._solo_instance
     
     def reset_all_data(self):
         self._store={}
         self._category_list=[]
+        self._trending_data= {}
+
 
 
     def get_store_data(self, title:str) -> Optional[Any]:
@@ -41,5 +44,9 @@ class GlobalStore:
         return category_data
 
 
+    def get_trending_data(self, category_name:str) -> List:
+        return self._trending_data.get(category_name, [])
+    def set_trending_data(self, category_name:str, data:list):
+        self._trending_data[category_name] = data
 
 global_store = GlobalStore()

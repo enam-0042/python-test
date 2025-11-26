@@ -1,5 +1,6 @@
 from data.generate import create_category, save_poster_json
 from store.global_store import global_store
+
 from core.config import settings
 from services.icon_json_generator import IconService
 from services.other_json_creator import OtherTypeCreationService
@@ -25,6 +26,7 @@ def check_and_save_file(forced_call:bool):
                 if fetched_data != data:
                     global_store.set_store_data(title=category, data=data)
                     save_poster_json(json_data=data,output_filename=category )
+
                 
             except Exception as e:
                 global_store.set_store_data(title=category, data = [])
