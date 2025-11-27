@@ -1,6 +1,6 @@
 import random
+import time
 from base64 import b64encode, b64decode
-from datetime import datetime, timezone
 from typing import Optional
 
 from cryptography.hazmat.backends import default_backend
@@ -48,7 +48,7 @@ class LegacyCryptoAlgorithm:
 
     def decrypt(self, key: str) -> Optional[int]:
         """
-        Decrypts a dynamic API key back to the timestamp integer. milliseconds
+        Decrypts a key back to the timestamp integer. milliseconds
         """
         try:
             clean_base64 = self._remove_garbage_from_key(key)
@@ -75,8 +75,8 @@ class LegacyCryptoAlgorithm:
         and inserts random noise.
         """
         # timeinterval since: timeIntervalSince1970 * 1000
-        # time_interval_int = int(time.time() * 1000)
-        time_interval_int = int(datetime.now(timezone.utc).timestamp() * 1000)
+        time_interval_int = int(time.time() * 1000)
+        # time_interval_int = int(datetime.now(timezone.utc).timestamp() * 1000)
         prefix_text = ""
         suffix_text = ""
         prefix_taken = 0

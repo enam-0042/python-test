@@ -1,10 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 
 from lifespan import lifespan
 from routes.admin_api import router as admin_api_router
 from routes.v1.api import router as api_router
-
+from dependencies.validate_token import  validate_token
 app = FastAPI(
     title="Trending API",
     openapi_url=f"/trending/api/v1/openapi.json",
@@ -20,5 +20,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(api_router)
+app.include_router(api_router, dependencies=[Depends(validate_token)])
 app.include_router(admin_api_router)
