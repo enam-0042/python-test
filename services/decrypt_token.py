@@ -1,14 +1,16 @@
+import logging
 from base64 import b64decode
 from typing import Optional
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from cryptography.hazmat.backends import default_backend
 
-import logging
+from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+from utils.singleton import singleton
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-
+@singleton
 class DecryptToken:
     """
     Replicates the DecryptionAlgo Swift class logic in Python.
@@ -17,7 +19,7 @@ class DecryptToken:
     """
 
     _SHARED_SECRET_KEY = "!.z4@B9Y,A1&+LO?12Y4*/x8I0^S)4Kr".encode("utf-8")
-    _IV = "stwx8Yi'CvkL{}-+".encode("utf-8")
+    _IV = "stwx8Yi'CvkL{}-+".encode("utf-8") # noqa
     _VALUES_OF_CHARACTER = {
         "a": 0,
         "!": 1,
@@ -30,12 +32,6 @@ class DecryptToken:
         "V": 8,
         "p": 9,
     }
-
-    def validate(self, key: str, allowed_diff: int = 60 * 60) -> bool:
-        """
-        :param allowed_diff: the key is a time, it can be from past with `allowe_diff` amount
-        """
-        return True
 
     def decrypt(self, key: str) -> int | None:
         """
@@ -61,8 +57,8 @@ class DecryptToken:
         except Exception as e:
             logger.info(msg=f"An error occurred during decryption: {e}")
             return None
-
-    def _get_encrypted_dynamic_text(self, key: str) -> str:
+    @staticmethod
+    def _get_encrypted_dynamic_text(key: str) -> str:
         """
         Filters the input key string to remove 'garbage' characters
         based on a complex, oscillating interval pattern.
