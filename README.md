@@ -1,1 +1,3 @@
-'hi, there is nothing.' - gambler
+### Api endpoints
+
+- `/reload` to force reload information
