@@ -1,0 +1,17 @@
+[project]
+name = "static-data-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.122.0",
+    "pandas>=2.3.3",
+    "pillow>=12.0.0",
+    "pydantic-settings>=2.12.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.6",
+]
