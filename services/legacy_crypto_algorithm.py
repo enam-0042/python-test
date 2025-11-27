@@ -26,6 +26,18 @@ class LegacyCryptoAlgorithm:
         self._SHARED_SECRET_KEY_STR = self._SHARED_SECRET_KEY.decode('utf-8')
         self._ALL_CHARS_LIST = list(self._ALL_CHARACTERS)
 
+    @staticmethod
+    def __current_time_in_ms() -> int:
+        # time should generate from 1970 as frontend doing and time.time() default behavior
+        time_in_ms = int(time.time() * 1000)
+        # time_in_ms = int(datetime.now(timezone.utc).timestamp() * 1000)
+        return time_in_ms
+
+    @staticmethod
+    def time_diff(time_in_ms: int)->int:
+        return LegacyCryptoAlgorithm.__current_time_in_ms() - time_in_ms
+
+
     def encrypt(self) -> Optional[str]:
         """
         Generates a new encryption key based on the current timestamp in milliseconds
@@ -75,8 +87,8 @@ class LegacyCryptoAlgorithm:
         and inserts random noise.
         """
         # timeinterval since: timeIntervalSince1970 * 1000
-        time_interval_int = int(time.time() * 1000)
-        # time_interval_int = int(datetime.now(timezone.utc).timestamp() * 1000)
+
+        time_interval_int = LegacyCryptoAlgorithm.__current_time_in_ms()
         prefix_text = ""
         suffix_text = ""
         prefix_taken = 0
