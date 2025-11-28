@@ -14,8 +14,8 @@ store = PersistentTokenStore()
 def validate_token(token: Annotated[str, Header(alias="tokenHeader")]):
     try:
         if store.get(token):
-            logger.debug(f"Token {token} is already been used")
-            return HTTPException(status_code=400, detail="Invalid token or expired")
+            logger.info(f"Token is already been used")
+            raise HTTPException(status_code=400, detail="Invalid token or expired")
         # the time comes in milliseconds from date in 1970
         time_milliseconds = decryptor.decrypt(token)
         logger.info(f"Time: {time_milliseconds=}, {decryptor.time_diff(time_milliseconds)=}")
