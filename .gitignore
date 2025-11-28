@@ -3,4 +3,5 @@ __pycache__
 output/
 .pyc*
 log/
+db/*
 .idea

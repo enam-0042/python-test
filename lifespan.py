@@ -1,43 +1,23 @@
 import asyncio
+import logging
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
-from services.scheduler_startup import startup_function , check_and_update
 
+from fastapi import FastAPI
+
+from services.scheduler_startup import check_and_update
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 @asynccontextmanager
 async def lifespan(app:FastAPI):
     task = asyncio.create_task(check_and_update())
-    print('BG function started')
+    logger.info("Check and update task started")
 
     yield
 
     task.cancel()
+    logger.info("Check and update gracefully stopped")
 
-    try:
-        await task
-    
-    except asyncio.CancelledError:
-        print("Background Task stopped.")
-    
-    print("Shutdown occured")
+    await task
 
-
-
-
-
-
-# @asynccontextmanager
-# async def lifespan(app: FastAPI):
-#     # Startup
-#     task = asyncio.create_task(startup_function())
-#     print("🚀 Background task started.")
-
-#     yield  # Application runs
-
-#     # Shutdown
-#     task.cancel()
-#     try:
-#         await task
-#     except asyncio.CancelledError:
-#         print("🛑 Background task stopped.")
-#     print("✅ Application shutdown complete.")

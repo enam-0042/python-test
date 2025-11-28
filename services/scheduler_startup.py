@@ -20,4 +20,4 @@ async def check_and_update():
     
     while True:
         check_and_save_file(forced_call=False)
-        await asyncio.sleep(60*5)
+        await asyncio.sleep(60*60)
