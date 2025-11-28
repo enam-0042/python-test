@@ -7,21 +7,23 @@ from datetime import datetime, timedelta, timezone
 import asyncio
 
 class InMemoryTokenStore(NoSQLDatabase):
-    def __init__(self, max_size=1000, ttl: int = 7200, cache_file: str = "tokens.json", save_after_n: int = 50):
+    def __init__(self, max_size=1000, ttl: int = 7200, cache_file_path: str = "tokens.json", save_after_n: int = 50):
         self.ttl = ttl
         self.cache = TTLCache(max_size, ttl=ttl)
-        self.cache_file = cache_file
+        self.cache_file_path = cache_file_path
         self.save_after_n = save_after_n
         self._added_since_save = 0
         self._lock = asyncio.Lock()
 
         self.__load_tokens()
 
+        # creating after loading so does not mess-up at startup
+        Path(self.cache_file_path).parent.mkdir(parents=True, exist_ok=True)
         asyncio.create_task(self.__periodic_save())
 
 
     def __load_tokens(self):
-        location = Path(self.cache_file)
+        location = Path(self.cache_file_path)
         if not location.exists():
             return
 
@@ -48,7 +50,7 @@ class InMemoryTokenStore(NoSQLDatabase):
                 ttl_remaining = self.cache.get_ttl(token) if hasattr(self.cache, "get_ttl") else self.ttl
                 expire_dt = now + timedelta(seconds=ttl_remaining)
                 data[token] = expire_dt.isoformat()
-            with open(self.cache_file, "w") as f:
+            with open(self.cache_file_path, "w") as f:
                 json.dump(data, f)
             self._added_since_save = 0
 
