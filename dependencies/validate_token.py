@@ -7,7 +7,7 @@ from services import LegacyCryptoAlgorithm
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-ALLOWED_DIFF_IN_MS = 1000*60*10 # 10 minutes
+ALLOWED_DIFF_IN_MS = 1000*60*30 # 30 minutes
 decryptor = LegacyCryptoAlgorithm()
 
 def validate_token(token: Annotated[str, Header(alias="tokenHeader")]):
