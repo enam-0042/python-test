@@ -9,21 +9,30 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 
 class LegacyCryptoAlgorithm:
-    _SHARED_SECRET_KEY = "!.z4@B9Y,A1&+LO?12Y4*/x8I0^S)4Kr".encode('utf-8')
-    _IV = "stwx8Yi'CvkL{}-+".encode('utf-8') # noqa
-
+    _SHARED_SECRET_KEY = "!.z4@B9Y,A1&+LO?12Y4*/x8I0^S)4Kr".encode("utf-8")
+    _IV = "stwx8Yi'CvkL{}-+".encode("utf-8")  # noqa
 
     _VALUES_OF_INT = {
-        0: "a", 1: "!", 2: "y", 3: ",", 4: "s",
-        5: "r", 6: "?", 7: "T", 8: "V", 9: "p"
+        0: "a",
+        1: "!",
+        2: "y",
+        3: ",",
+        4: "s",
+        5: "r",
+        6: "?",
+        7: "T",
+        8: "V",
+        9: "p",
     }
 
     _VALUES_OF_CHARACTER = {v: k for k, v in _VALUES_OF_INT.items()}
 
-    _ALL_CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.;:{}()-_+=|" # noqa
+    _ALL_CHARACTERS = (
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.;:{}()-_+=|"  # noqa
+    )
 
     def __init__(self):
-        self._SHARED_SECRET_KEY_STR = self._SHARED_SECRET_KEY.decode('utf-8')
+        self._SHARED_SECRET_KEY_STR = self._SHARED_SECRET_KEY.decode("utf-8")
         self._ALL_CHARS_LIST = list(self._ALL_CHARACTERS)
 
     @staticmethod
@@ -34,9 +43,8 @@ class LegacyCryptoAlgorithm:
         return time_in_ms
 
     @staticmethod
-    def time_diff(time_in_ms: int)->int:
+    def time_diff(time_in_ms: int) -> int:
         return LegacyCryptoAlgorithm.__current_time_in_ms() - time_in_ms
-
 
     def encrypt(self) -> Optional[str]:
         """
@@ -45,11 +53,13 @@ class LegacyCryptoAlgorithm:
         try:
             dynamic_text = self._create_dynamic_text()
 
-            encrypted_bytes = self._crypt_aes(dynamic_text.encode('utf-8'), is_encrypt=True)
+            encrypted_bytes = self._crypt_aes(
+                dynamic_text.encode("utf-8"), is_encrypt=True
+            )
             if not encrypted_bytes:
                 return None
 
-            base64_string = b64encode(encrypted_bytes).decode('utf-8')
+            base64_string = b64encode(encrypted_bytes).decode("utf-8")
 
             final_key = self._extended_api_key(base64_string)
             return final_key
@@ -71,7 +81,7 @@ class LegacyCryptoAlgorithm:
             if not decrypted_bytes:
                 return None
 
-            dynamic_text = decrypted_bytes.decode('utf-8')
+            dynamic_text = decrypted_bytes.decode("utf-8")
 
             actual_value = self._get_actual_value(dynamic_text)
             return actual_value
@@ -104,11 +114,15 @@ class LegacyCryptoAlgorithm:
             if prefix_taken > suffix_taken:
                 suffix_taken += 1
                 suffix_text += encrypted_char
-                suffix_text += (self._get_random_secret_char() + self._get_random_hash_char())
+                suffix_text += (
+                    self._get_random_secret_char() + self._get_random_hash_char()
+                )
             else:
                 prefix_taken += 1
                 prefix_text += encrypted_char
-                prefix_text += (self._get_random_hash_char() + self._get_random_secret_char())
+                prefix_text += (
+                    self._get_random_hash_char() + self._get_random_secret_char()
+                )
 
             time_interval_int //= 10
 
@@ -190,7 +204,8 @@ class LegacyCryptoAlgorithm:
         prefix_taken = 0
 
         for i, char in enumerate(text):
-            if i % 3 != 0: continue
+            if i % 3 != 0:
+                continue
 
             if prefix_taken < prefix_len:
                 prefix_chars.append(char)
@@ -204,12 +219,14 @@ class LegacyCryptoAlgorithm:
         for i, p_char in enumerate(prefix_chars):
             digit = self._VALUES_OF_CHARACTER.get(p_char, 0)
             final_val = (final_val * 10) + digit
-            if final_val == 0: zeros_count += 1
+            if final_val == 0:
+                zeros_count += 1
 
             if i < len(suffix_chars):
                 digit = self._VALUES_OF_CHARACTER.get(suffix_chars[i], 0)
                 final_val = (final_val * 10) + digit
-                if final_val == 0: zeros_count += 1
+                if final_val == 0:
+                    zeros_count += 1
 
         actual_val = 0
         temp = final_val
@@ -218,13 +235,13 @@ class LegacyCryptoAlgorithm:
             actual_val = (actual_val * 10) + (temp % 10)
             temp //= 10
 
-        if final_val == 0: return 0
+        if final_val == 0:
+            return 0
 
         for _ in range(zeros_count):
             actual_val *= 10
 
         return actual_val
-
 
     def _crypt_aes(self, data: bytes, is_encrypt: bool) -> Optional[bytes]:
         """Standard AES-256-CBC with PKCS7 Padding"""
@@ -232,7 +249,7 @@ class LegacyCryptoAlgorithm:
             cipher = Cipher(
                 algorithms.AES(self._SHARED_SECRET_KEY),
                 modes.CBC(self._IV),
-                backend=default_backend()
+                backend=default_backend(),
             )
 
             if is_encrypt:
@@ -244,7 +261,9 @@ class LegacyCryptoAlgorithm:
                 decryptor = cipher.decryptor()
                 decrypted_padded = decryptor.update(data) + decryptor.finalize()
                 unpading_adder = padding.PKCS7(128).unpadder()
-                return unpading_adder.update(decrypted_padded) + unpading_adder.finalize()
+                return (
+                    unpading_adder.update(decrypted_padded) + unpading_adder.finalize()
+                )
         except Exception:
             return None
 

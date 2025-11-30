@@ -1,12 +1,17 @@
 from threading import Lock
 
+
 def singleton(cls):
-    instances = {}
-    lock = Lock()
-    class wrapper(cls):
-        def __new__(cls, *args, **kwargs):
-            with lock:
-                if cls not in instances:
-                    instances[cls]= super(wrapper, cls).__new__(cls, *args,**kwargs)
-            return instances[cls]
-    return wrapper
+    cls.instances = None
+    cls._lock = Lock()
+    orig_new = cls.__new__
+
+    def __new__(__class, *args, **kwargs):
+        with __class._lock:
+            if __class.instances is None:
+                __class.instances = orig_new(__class, *args, **kwargs)
+
+        return __class.instances
+
+    cls.__new__ = __new__
+    return cls
