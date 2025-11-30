@@ -20,9 +20,7 @@ def validate_token(token: Annotated[str, Header(alias="tokenHeader")]):
         )
     # the time comes in milliseconds from date in 1970
     time_milliseconds = decryptor.decrypt(token)
-    logger.info(
-        f"Time: {time_milliseconds=}, {decryptor.time_diff(time_milliseconds)=}"
-    )
+
     if not time_milliseconds:
         raise HTTPException(status_code=401, detail="This secret key is invalid.")
 
