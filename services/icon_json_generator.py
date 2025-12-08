@@ -21,7 +21,7 @@ class IconService():
             return False
 
 
-    def _create_individual_icon_list(self, path:Path)->list:
+    def _create_individual_icon_list(self, path:Path)-> tuple[list[dict], int]:
         icon_list = []
         category_name = path.name
         # currently no priority for individual icons is defined in csv or anywhere, so setting it to None
