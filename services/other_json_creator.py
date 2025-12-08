@@ -159,6 +159,7 @@ class OtherTypeCreationService:
                 category_item = {}
                 logger.error(f'error in category generation {e}')
             category_data_list.append(category_item)
+        category_data_list = sorted(category_data_list, key =lambda x: x.get('priority', -1))
         return category_data_list 
 
     def create_other_json(self, path:Path, category )->list:
