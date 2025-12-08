@@ -75,16 +75,16 @@ class OtherTypeCreationService:
 
                 # this will look for 1.csv file this will contain 'promo' and other value , we focus only in promo 
                 placeholder_csv_path = Path(item ) / '1.csv'
-                promo = True
+                promo = False
                 
                 if placeholder_csv_path.exists():
                     df = pd.read_csv(placeholder_csv_path)
                     value=df.columns[0]
                     promo=value
-                    if value.lower()== 'false':
-                        promo= False
+                    if value.lower()== 'true':
+                        promo= True
                     else:
-                        promo = True 
+                        promo = False 
                 # this will look for its '.zip' file , zip file must and must have the same name as the subcategory 
                 # like 'Abstract poster 300' this must have 'Abstract poster 300.zip' file otherwise zip will be null
                 zip_file_path = Path(path)/ f'{item_name}.zip'

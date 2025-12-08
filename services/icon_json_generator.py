@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from pathlib import Path
 import os
+import pandas as pd
 from schemas.icon import IconCategory, IconIndividual
 from utils.singleton import singleton
 from core.log_config import get_logger
@@ -25,8 +26,13 @@ class IconService():
         category_name = path.name
         # currently no priority for individual icons is defined in csv or anywhere, so setting it to None
         # if future requirement arises, we can modify it accordingly
+        priority = -1
         for item in sorted(path.iterdir()):
             try:
+                if item.name.endswith('.csv'):
+                    if item.exists():
+                        df = pd.read_csv(item, header = None)
+                        priority= int(df.iat[0,0])
                 icon_name = item.name
                 if icon_name.endswith('.png'):
                     continue
@@ -41,13 +47,18 @@ class IconService():
                 else :
                     iconPNG= None
                 icon_individual = {
-                    "iconPNG":iconPNG,
-                    "iconSVG":iconSVG
+                    "iconThumb":iconPNG,
+                    "iconOriginal":iconSVG
                 }
                 icon_list.append(icon_individual)
             except Exception as e:
                 logger.exception('error creating individual list' ,e)
-        return icon_list
+        # icons = {
+        #     "priority":priority,
+        #     "icons":icon_list
+        # }
+        return icon_list, priority
+        # return icons
 
     def create_icon_data(self, path:Path):
         if not self.__check_valid(path):
@@ -75,7 +86,7 @@ class IconService():
                 last_modified_time = os.path.getmtime(category)
                 icon_type_name = category_name
                 priority = None
-                icon_list = self._create_individual_icon_list(category)
+                icon_list , priority = self._create_individual_icon_list(category)
  
                 icon_category_instance = {
                     "iconTypeName":icon_type_name,
@@ -88,7 +99,9 @@ class IconService():
             except Exception as e:
                 logger.error(f'Error - {e}')
         # return []
-        return final_list   
+        return sorted(final_list , key= lambda x: x.get('priority', -1))
+    
+        # return final_list   
 
 
 
