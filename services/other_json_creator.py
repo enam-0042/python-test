@@ -51,7 +51,12 @@ class OtherTypeCreationService:
                 # here item like /home/gambler/Documents/poster_server_data/posters/Abstract/Abstract poster 300
                 item_name = item.name
                 if item_name.endswith('.zip')  :
+                    continue                
+                if item_name.endswith(('.DS_Store', '.ds_store'))  :
                     continue
+                if item_name.endswith(('.DStore', '.dstore'))  :
+                    continue
+                               
                 if item_name.endswith('.csv'):
                     if item.exists():
                         df = pd.read_csv(item, header=None)
@@ -108,11 +113,10 @@ class OtherTypeCreationService:
                     }
                 else :
                     # if no holder image than returning null element
-                    item_data = self.default_item_data
+                    continue        
+                item_list.append(item_data)
             except Exception as e:
-                item_data = self.default_item_data
                 logger.error(f'while generating {category} data Error--->{e}')
-            item_list.append(item_data)
         return item_list,parent_category
 
             

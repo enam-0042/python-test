@@ -8,7 +8,7 @@ import os
 APP_LOGGER_NAME = "Fastapi_Universal_api"
 
 logger = logging.getLogger(APP_LOGGER_NAME)
-logger.setLevel(logging.DEBUG)
+# logger.setLevel(logging.WARNING)
 LOG_DIR = "log"
 os.makedirs(
     LOG_DIR, exist_ok=True
@@ -31,12 +31,12 @@ if not logger.handlers:
         log_file_path, maxBytes=5 * 1024 * 1024, backupCount=5
     )
 
-    file_handler.setLevel(logging.DEBUG)
+    file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(log_format)
     logger.addHandler(file_handler)
 
     logger.info(
-        "Global logging configuration initialized (Console: INFO+, File: DEBUG+)"
+        "Global logging configuration initialized (Console: WARNING+, File: WARNING+)"
     )
 
 

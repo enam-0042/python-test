@@ -16,10 +16,6 @@ def check_and_save_file(forced_call:bool):
         if fetched_data !=category_data:
             global_store.set_store_data(title=category, data=category_data)
             save_poster_json(json_data=category_data, output_filename=category)
-            print('new files are created')
-        
-        else:
-            print('not saved')
 
 # if __name__== "__main__":
      

@@ -10,9 +10,10 @@ logger = get_logger()
 @singleton
 class IconService():
     icon_source_path:Path
+    icon_specific_path:Path = Path('icons') 
 
     def __check_valid(self, path:Path)->bool:
-        self.icon_source_path = Path (path) / 'icons'/ 'Icons'
+        self.icon_source_path = Path (path) / self.icon_specific_path
         if self.icon_source_path.exists() and self.icon_source_path.is_dir() :
             return True
         else :
@@ -52,13 +53,17 @@ class IconService():
         if not self.__check_valid(path):
             return []        
         final_list = []
-        try:
-            for category in self.icon_source_path.iterdir():
+        print(self.icon_source_path)
+        for category in self.icon_source_path.iterdir():
+            try:
                 category_name = category.name
                 if category_name.endswith('.zip'):
                     continue
-                if category_name.endswith('.DStore'):
+                if category_name.endswith(('.DStore' , '.dstore')):
                     continue
+                
+                if category_name.endswith(('.DS_Store' , '.ds_store')):
+                    continue                
                 # category_path = Path(self.icon_source_path)/ category_name
                 # category_zip = str(category_path)+ '.zip'
                 category_zip = Path(self.icon_source_path)/ (category_name + '.zip')
@@ -80,9 +85,9 @@ class IconService():
                     "icons":icon_list
                 }
                 final_list.append(icon_category_instance)
-        except Exception as e:
-            logger.error(f'Error - {e}')
-            return []
+            except Exception as e:
+                logger.error(f'Error - {e}')
+        # return []
         return final_list   
 
 

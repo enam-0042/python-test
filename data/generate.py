@@ -23,6 +23,9 @@ def create_category(root):
 
 def save_poster_json(json_data:dict, output_filename:str):
     try:
+        json_store_path = Path(settings.JSON_STORE_LOCATION)
+        if not json_store_path.exists():
+            json_store_path.mkdir(parents=True, exist_ok=True)
         json_filename = f'''{settings.JSON_STORE_LOCATION}/{output_filename}.json'''
         with open(json_filename, 'w' , encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=4)

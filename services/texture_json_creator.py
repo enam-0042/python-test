@@ -43,6 +43,9 @@ class TextureService:
 
         try:
             for texture_item in self.texture_source_path.iterdir():
+                if texture_item.endswith(('.DStore','ds_store','.dstore','.DS_Store')):
+                    continue
+                
                 item_data = self._item_dict_creation(item_path=texture_item)
                 final_list.append(item_data)
             return final_list
