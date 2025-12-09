@@ -50,12 +50,10 @@ class OtherTypeCreationService:
             try:
                 # here item like /home/gambler/Documents/poster_server_data/posters/Abstract/Abstract poster 300
                 item_name = item.name
-                if item_name.endswith('.zip')  :
-                    continue                
-                if item_name.endswith(('.DS_Store', '.ds_store'))  :
+               
+                if item_name.endswith(('.DS_Store', '.ds_store', '.DStore', '.dstore', '.zip'))  :
                     continue
-                if item_name.endswith(('.DStore', '.dstore'))  :
-                    continue
+
                                
                 if item_name.endswith('.csv'):
                     if item.exists():
@@ -79,20 +77,21 @@ class OtherTypeCreationService:
                 
                 if placeholder_csv_path.exists():
                     df = pd.read_csv(placeholder_csv_path)
-                    value=df.columns[0]
-                    promo=value
-                    if value.lower()== 'true':
+                    if df.columns[0].lower()== 'true':
                         promo= True
                     else:
                         promo = False 
                 # this will look for its '.zip' file , zip file must and must have the same name as the subcategory 
                 # like 'Abstract poster 300' this must have 'Abstract poster 300.zip' file otherwise zip will be null
                 zip_file_path = Path(path)/ f'{item_name}.zip'
+                
                 if zip_file_path.exists():
                     mod_time_ms = int(zip_file_path.stat().st_mtime)
                     zip_file_name =f'{item_name}.zip'
                 else : 
                     zip_file_name = None
+                    mod_time_ms = None
+
                 if not holder_img_path.is_file():
                     holder_img_name = None
                 # fetch the 'Holder/holder/HOLDER.****' image info, width , height 

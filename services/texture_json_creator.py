@@ -11,9 +11,10 @@ logger = get_logger()
 @singleton
 class TextureService:
     texture_source_path:Path
+    texture_specific_path:Path = Path('textures/textures')
 
     def _check_valid(self, path:Path)->bool:
-        self.texture_source_path = Path (path) / 'textures'
+        self.texture_source_path = Path (path) / self.texture_specific_path
         if self.texture_source_path.exists() and self.texture_source_path.is_dir() :
             return True
         else :
@@ -35,20 +36,18 @@ class TextureService:
         return item_data      
 
     def create_texture_data(self, path:Path) -> list:
-
         if not self._check_valid( path=path):
             return []
-        
         final_list = []
 
         try:
             for texture_item in self.texture_source_path.iterdir():
-                if texture_item.endswith(('.DStore','ds_store','.dstore','.DS_Store')):
+                if texture_item.name.endswith(('.DStore','ds_store','.dstore','.DS_Store')):
                     continue
                 
-                item_data = self._item_dict_creation(item_path=texture_item)
+                item_data  = self._item_dict_creation(item_path=texture_item)
                 final_list.append(item_data)
-            return final_list
+            return final_list , str(self.texture_source_path)
         except Exception as e:
             logger.error(f'Error happened {e}')
             return []
