@@ -19,7 +19,7 @@ class IconService():
         if response:
             self.icon_source_path = path
         return response
-
+    
 
     def _create_individual_icon_list(self, path:Path)-> tuple[list[dict], int]:
         icon_list = []
@@ -65,7 +65,7 @@ class IconService():
             try:
                 category_name = category.name
 
-                if category_name.endswith(('.DStore' , '.dstore','.DS_Store' , '.ds_store','.zip')):
+                if category_name.lower().endswith(( '.dstore', '.ds_store','.zip')):
                     continue
 
                 category_zip = Path(self.icon_source_path)/ (category_name + '.zip')

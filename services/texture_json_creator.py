@@ -34,20 +34,35 @@ class TextureService:
             logger.error(f'Error happened during item dict creation: {e}')
             item_data = {}  
         return item_data      
+    def _texture_list_creation(self, path:Path) -> list[dict]:
+        texture_dict = {}
+        for texture_item in path.iterdir():
+            
+            if texture_item.name.lower().endswith(('ds_store','.dstore')):
+                continue
+
 
     def create_texture_data(self, path:Path) -> list:
         if not self._check_valid( path=path):
             return []
         final_list = []
-
         try:
-            for texture_item in self.texture_source_path.iterdir():
-                if texture_item.name.lower().endswith(('ds_store','.dstore')):
-                    continue
-                
-                item_data  = self._item_dict_creation(item_path=texture_item)
-                final_list.append(item_data)
-            return final_list , str(self.texture_source_path)
+            item_list = self._texture_list_creation(self.texture_source_path)
         except Exception as e:
-            logger.error(f'Error happened {e}')
-            return []
+            logger.error(f'Error happened during texture list creation: {e}')
+            item_list = []
+        final_list.extend(item_list)
+        return final_list , str(self.texture_source_path)
+
+
+        # try:
+        #     for texture_item in self.texture_source_path.iterdir():
+        #         if texture_item.name.lower().endswith(('ds_store','.dstore')):
+        #             continue
+                
+        #         item_data  = self._item_dict_creation(item_path=texture_item)
+        #         final_list.append(item_data)
+        #     return final_list , str(self.texture_source_path)
+        # except Exception as e:
+        #     logger.error(f'Error happened {e}')
+        #     return []
