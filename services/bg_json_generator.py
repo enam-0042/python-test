@@ -44,8 +44,6 @@ class BGService():
                 logger.error(f'Error happened during reading bg category items: {e}')
                 continue
 
-
-
         for item in bg_category.iterdir():
             try:
                 if item.name.lower().endswith(('ds_store','.dstore','.zip')):
@@ -58,6 +56,8 @@ class BGService():
                 if item.suffix.lower() in ('.jpg', '.png', '.jpeg'):
                     originalImage = str(item.name)
                 thumbImage = item_dict.get(item.stem.lower(), None)
+                if thumbImage is None:
+                    thumbImage = f'{bg_category.name}/{thumbImage}'
                 item_data.append({
                     "originalImage": originalImage,
                     "thumbImage": thumbImage
@@ -78,7 +78,7 @@ class BGService():
 
         for bg_category in self.bg_source_path.iterdir():
             try:
-                if bg_category.name.endswith(('.DStore','ds_store','.dstore','.DS_Store', '.zip')):
+                if bg_category.name.lower().endswith(('ds_store','.dstore','.zip')):
                     continue
                 category_name = bg_category.name
                 
@@ -92,7 +92,7 @@ class BGService():
                 item_data , category_image, priority= self._generate_item_data(bg_category)
                 final_list.append({
                     "categoryName": category_name,
-                    "categoryThumb": category_image,
+                    "categoryThumb": f'{bg_category.name}/{category_image}',
                     "lastModifiedTime": last_modified_time,
                     "priority": priority,
                     "zipFile": zip_path,

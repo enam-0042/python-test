@@ -51,11 +51,11 @@ class OtherTypeCreationService:
                 # here item like /home/gambler/Documents/poster_server_data/posters/Abstract/Abstract poster 300
                 item_name = item.name
                
-                if item_name.endswith(('.DS_Store', '.ds_store', '.DStore', '.dstore', '.zip'))  :
+                if item_name.lower().endswith(( '.ds_store',  '.dstore', '.zip'))  :
                     continue
 
                                
-                if item_name.endswith('.csv'):
+                if item_name.lower().endswith('.csv'):
                     if item.exists():
                         df = pd.read_csv(item, header=None)
                         parent_category= int(df.iat[0,0])
