@@ -55,8 +55,9 @@ class BGService():
                 originalImage = None
                 if item.suffix.lower() in ('.jpg', '.png', '.jpeg'):
                     originalImage = str(item.name)
+                    originalImage = f'{bg_category.name}/{originalImage}'
                 thumbImage = item_dict.get(item.stem.lower(), None)
-                if thumbImage is None:
+                if thumbImage :
                     thumbImage = f'{bg_category.name}/{thumbImage}'
                 item_data.append({
                     "originalImage": originalImage,
@@ -93,7 +94,7 @@ class BGService():
                 final_list.append({
                     "categoryName": category_name,
                     "categoryThumb": f'{bg_category.name}/{category_image}',
-                    "lastModifiedTime": last_modified_time,
+                    "lastModifiedTime": int(last_modified_time),
                     "priority": priority,
                     "zipFile": zip_path,
                     "items": item_data
