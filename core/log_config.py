@@ -21,7 +21,7 @@ if not logger.handlers:
     )
 
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)
+    console_handler.setLevel(logging.WARNING)
     console_handler.setFormatter(log_format)
     logger.addHandler(console_handler)
 
@@ -31,7 +31,7 @@ if not logger.handlers:
         log_file_path, maxBytes=5 * 1024 * 1024, backupCount=5
     )
 
-    file_handler.setLevel(logging.INFO)
+    file_handler.setLevel(logging.WARNING)
     file_handler.setFormatter(log_format)
     logger.addHandler(file_handler)
 
