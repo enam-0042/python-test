@@ -42,7 +42,7 @@ class TextureService:
 
         try:
             for texture_item in self.texture_source_path.iterdir():
-                if texture_item.name.lowe().endswith(('ds_store','.dstore')):
+                if texture_item.name.lower().endswith(('ds_store','.dstore')):
                     continue
                 
                 item_data  = self._item_dict_creation(item_path=texture_item)
