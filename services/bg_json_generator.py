@@ -9,6 +9,14 @@ logger = get_logger()
 @singleton
 class BGService():
     bg_source_path:Path
+    svg_extension_list = ('.svg')
+    other_extension_list = ('.jpg', '.png', '.jpeg' , '.svg' )
+    thumb_extension_list = ('.webp')
+    skip_files_without_zip = ('ds_store','.dstore')
+    skip_files_with_zip=('ds_store','.dstore','.zip')
+    image_extension_list = ('.jpg', '.png', '.jpeg', '.webp', '.svg')
+
+
     def _check_valid(self, path:Path)->bool:
         if path.exists() and path.is_dir() :
             self.bg_source_path = path
@@ -16,44 +24,67 @@ class BGService():
         else :
             return False
     
+    def _remove_extension_icons(self, filename:str)-> str:
+        return filename.split('@')[0]
+
+
     def _generate_item_data(self, bg_category:Path) :
         # print(bg_category)
         item_dict = {}
         category_image = None
         item_data =[]
         priority = -1
+        parent_category = bg_category.parent.name
+        if parent_category.lower() == 'icons':
+            extension_list = ('.png',)
+            original_image_extension_list = ('.svg',)
+        else:
+            extension_list = self.thumb_extension_list
+            original_image_extension_list = self.other_extension_list
+
         category_name = bg_category.name.lower()
+        # this loop is to get map thumb images , for priority of list, and for category_image
         for item in bg_category.iterdir():
             try:
-                if item.name.lower().endswith(('ds_store','.dstore','.zip')):
+                if item.name.lower().endswith(self.skip_files_with_zip):
                     continue
                         
-                item_name = bg_category.name
-                if item_name.lower().endswith(('.webp')):
-                    item_dict[item.stem.lower()] = item_name   
-                if item.suffix.lower() in ('.csv'):
+                item_name = item.name
+                # if category_name :
+                #     print(parent_category)
+                if item_name.lower().endswith(extension_list):
+                    if parent_category == 'icons':
+                        item_dict[self._remove_extension_icons(item_name.lower())] = item_name
+                        continue
+                    item_dict[item.stem] = item_name
+
+                    # print(item.stem) 
+
+                elif item.suffix.lower() in ('.csv'):
                     if  os.path.exists(item):
                         df = pd.read_csv(item, header=None)
                         value = df.iat[0, 0]
                         priority= int(value)
                         
-                if category_name == item.stem.lower() and item.suffix.lower() in ('.jpg', '.png', '.jpeg', '.webp'):
+                if category_name == item.stem.lower() and item.suffix.lower() in self.image_extension_list:
                     category_image = str(item.name)
                     continue
             except Exception as e:  
                 logger.error(f'Error happened during reading bg category items: {e}')
                 continue
 
+        # this loop is to get original images and make final item data list  
         for item in bg_category.iterdir():
             try:
-                if item.name.lower().endswith(('ds_store','.dstore','.zip')):
+                if item.name.lower().endswith(self.skip_files_with_zip):
                     continue                       
                 item_name = item.name
-                if not item_name.lower().endswith(('.jpg', '.png','.jpeg', '.webp')):
+                if not item_name.lower().endswith(original_image_extension_list):
                     continue
 
                 originalImage = None
-                if item.suffix.lower() in ('.jpg', '.png', '.jpeg'):
+                
+                if item.suffix.lower() in (original_image_extension_list):
                     originalImage = str(item.name)
                     originalImage = f'{bg_category.name}/{originalImage}'
                 thumbImage = item_dict.get(item.stem.lower(), None)
@@ -81,7 +112,7 @@ class BGService():
 
         for bg_category in self.bg_source_path.iterdir():
             try:
-                if bg_category.name.lower().endswith(('ds_store','.dstore','.zip')):
+                if bg_category.name.lower().endswith(self.skip_files_with_zip):
                     continue
                 category_name = bg_category.name
                 

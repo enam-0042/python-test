@@ -11,12 +11,12 @@ from core.log_config import get_logger
 from pathlib import Path
 def check_and_save_file(forced_call:bool):
     logger = get_logger()
-    icon_service = IconService()
+    # icon_service = IconService()
     bg_service = BGService()
 
-    texture_service = TextureService()
+    # texture_service = TextureService()
     other_json_service = OtherTypeCreationService()
-    wallpaper_service = WallpaperService()
+    # wallpaper_service = WallpaperService()
     if forced_call:
         global_store.reset_all_data()
     create_category(settings.BASE_DIRECTORY)
@@ -24,70 +24,67 @@ def check_and_save_file(forced_call:bool):
 
     for category in categories :
         fetched_data = global_store.get_store_data(category)
-        if category=="icons":
-            try:
-                data= icon_service.create_icon_data(Path(settings.BASE_DIRECTORY))
-                data = {"list":data}
-                if fetched_data != data:
-                    global_store.set_store_data(title=category, data=data)
-                    save_poster_json(json_data=data,output_filename=category )
+        if category in ("icons", "textures", "bgs"):
 
-                
-            except Exception as e:
-                global_store.set_store_data(title=category, data = [])
-                save_poster_json(json_data=[] , output_filename=category)
-                logger.error(f'Error - {e}')
-            continue 
-        elif category == "textures":
             try:
-                # data_list , baseUrl= texture_service.create_texture_data(settings.BASE_DIRECTORY)
-                # BASE_TEXTURE_PATH = Path(settings.BASE_DIRECTORY)/category
-                # BASE_TEXTURE_PATH = str(BASE_TEXTURE_PATH)
-                # data : dict = {}
-                # data['baseUrl'] = baseUrl
-                # data['textureImages'] = data_list
                 data = bg_service.create_bg_data(Path(settings.BASE_DIRECTORY)/category)
                 data = {"list":data}
-                if fetched_data!= data:
+                if fetched_data != data:
                     global_store.set_store_data(title=category, data = data)
                     save_poster_json(json_data=data , output_filename=category)
             except Exception as e:
                 global_store.set_store_data(title=category, data = [])
                 save_poster_json(json_data=[] , output_filename=category)
                 logger.error(f'Error - {e}')
-            continue
-        elif category == "wallpapers":
-            try:
-                data = wallpaper_service.create_wallpaper_data(Path(settings.BASE_DIRECTORY)/category)
-                data = {"list":data}
-                if fetched_data != data:
-                    global_store.set_store_data(title=category, data=data)
-                    save_poster_json(json_data=data,output_filename=category )
-                    logger.error(f'new files are created {category}')
-                else:
-                    logger.info('not saved')
+            
+        # elif category == "textures":
+        #     try:
+        #         # data_list , baseUrl= texture_service.create_texture_data(settings.BASE_DIRECTORY)
+        #         # BASE_TEXTURE_PATH = Path(settings.BASE_DIRECTORY)/category
+        #         # BASE_TEXTURE_PATH = str(BASE_TEXTURE_PATH)
+        #         # data : dict = {}
+        #         # data['baseUrl'] = baseUrl
+        #         # data['textureImages'] = data_list
+        #         data = bg_service.create_bg_data(Path(settings.BASE_DIRECTORY)/category)
+        #         data = {"list":data}
+        #         if fetched_data!= data:
+        #             global_store.set_store_data(title=category, data = data)
+        #             save_poster_json(json_data=data , output_filename=category)
+        #     except Exception as e:
+        #         global_store.set_store_data(title=category, data = [])
+        #         save_poster_json(json_data=[] , output_filename=category)
+        #         logger.error(f'Error - {e}')
+
+        # elif category == "wallpapers":
+        #     try:
+        #         data = wallpaper_service.create_wallpaper_data(Path(settings.BASE_DIRECTORY)/category)
+        #         data = {"list":data}
+        #         if fetched_data != data:
+        #             global_store.set_store_data(title=category, data=data)
+        #             save_poster_json(json_data=data,output_filename=category )
+        #             logger.error(f'new files are created {category}')
+        #         else:
+        #             logger.info('not saved')
+        #     except Exception as e:
+        #         global_store.set_store_data(title=category, data = [])
+        #         save_poster_json(json_data=[] , output_filename=category)
+        #         logger.error(f'Error - {e}')
+        # elif category in ["bgs"]:
+        #     try:
+        #         data = bg_service.create_bg_data(Path(settings.BASE_DIRECTORY)/category)
+        #         data = {"list":data}
+        #         if fetched_data != data:
+        #             global_store.set_store_data(title=category, data=data)
+        #             save_poster_json(json_data=data,output_filename=category )
+        #             logger.info(f'new files are created {category}')
+        #         else:
+        #             logger.info('not saved')
 
 
-            except Exception as e:
-                global_store.set_store_data(title=category, data = [])
-                save_poster_json(json_data=[] , output_filename=category)
-                logger.error(f'Error - {e}')
-        elif category in ["bgs"]:
-            try:
-                data = bg_service.create_bg_data(Path(settings.BASE_DIRECTORY)/category)
-                data = {"list":data}
-                if fetched_data != data:
-                    global_store.set_store_data(title=category, data=data)
-                    save_poster_json(json_data=data,output_filename=category )
-                    logger.info(f'new files are created {category}')
-                else:
-                    logger.info('not saved')
-
-
-            except Exception as e:
-                global_store.set_store_data(title=category, data = [])
-                save_poster_json(json_data=[] , output_filename=category)
-                logger.error(f'Error - {e}')
+        #     except Exception as e:
+        #         global_store.set_store_data(title=category, data = [])
+        #         save_poster_json(json_data=[] , output_filename=category)
+        #         logger.error(f'Error - {e}')
         else:
             try:
                 
