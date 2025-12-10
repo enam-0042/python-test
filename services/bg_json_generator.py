@@ -1,11 +1,10 @@
-from PIL import Image
+from schemas.background_schema import BackgroundSchema, BackgroundItemSchema
 from pathlib import Path
 import pandas as pd
 import os
 from utils.singleton import singleton
 from core.log_config import get_logger
 logger = get_logger()
-
 @singleton
 class BGService():
     bg_source_path:Path
@@ -50,16 +49,11 @@ class BGService():
                     continue
                         
                 item_name = item.name
-                # if category_name :
-                #     print(parent_category)
                 if item_name.lower().endswith(extension_list):
                     if parent_category == 'icons':
                         item_dict[self._remove_extension_icons(item_name.lower())] = item_name
                         continue
                     item_dict[item.stem] = item_name
-
-                    # print(item.stem) 
-
                 elif item.suffix.lower() in ('.csv'):
                     if  os.path.exists(item):
                         df = pd.read_csv(item, header=None)
@@ -92,10 +86,9 @@ class BGService():
                     thumbImage = f'{bg_category.name}/{thumbImage}'
                 else:
                     thumbImage = ''
-                item_data.append({
-                    "originalImage": originalImage,
-                    "thumbImage": thumbImage
-                })
+                item_data.append(BackgroundItemSchema(thumbImage=thumbImage, originalImage=originalImage))
+                
+
             except Exception as e:  
                 logger.error(f'Error happened during reading bg category items: {e}')
                 continue
@@ -128,18 +121,29 @@ class BGService():
                     categoty_thumb = f'{bg_category.name}/{category_image}'
                 else: 
                     categoty_thumb = ''
-                final_list.append({
-                    "categoryName": category_name,
-                    "categoryThumb": categoty_thumb,
-                    "lastModifiedTime": int(last_modified_time),
-                    "priority": priority,
-                    "zipFile": zip_path,
-                    "items": item_data
-                })
+
+                final_list.append(
+                    BackgroundSchema(
+                    categoryName=category_name,
+                    categoryThumb=categoty_thumb,
+                    lastModifiedTime=int(last_modified_time),
+                    priority=priority,
+                    items=item_data).model_dump()
+                )
+
+                # final_list.append({
+                #     "categoryName": category_name,
+                #     "categoryThumb": categoty_thumb,
+                #     "lastModifiedTime": int(last_modified_time),
+                #     "priority": priority,
+                #     "zipFile": zip_path,
+                #     "items": item_data
+                # })
 
 
             except Exception as e:
                 logger.error(f'Error happened {e}')
                 return []
+        final_list.sort(key=lambda x:x.get('priority', -1))
                 # final_list.append(item_data)
         return final_list

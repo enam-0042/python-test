@@ -10,6 +10,5 @@ class BackgroundSchema(BaseModel):
     categoryName: str
     categoryThumb:str
     priority: int
-    zipFile: str
     lastModifiedTime: int
     items: list[BackgroundItemSchema]

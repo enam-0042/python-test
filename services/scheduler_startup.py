@@ -1,15 +1,7 @@
 import asyncio
-# from services.generate import create_poster_json , save_poster_json , create_category
-# from store.global_store import global_store, GlobalStore
-# from core.config import settings
 from data.save_file import check_and_save_file
 from core.config import settings
 from pathlib import Path
-# from services.save_file import check_and_save_file
-async def startup_function():
-    while True:
-        print("hello, world")  
-        await asyncio.sleep(3) 
 
 async def check_and_update():
 
@@ -17,7 +9,6 @@ async def check_and_update():
     if not output_directory.exists():
         output_directory.mkdir(parents=True, exist_ok=True)
 
-    
     while True:
         check_and_save_file(forced_call=False)
-        await asyncio.sleep(60*60)
+        await asyncio.sleep(3*60)
