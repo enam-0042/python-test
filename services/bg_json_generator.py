@@ -91,9 +91,10 @@ class BGService():
                     last_modified_time = zip_path.stat().st_mtime
                     zip_path = str(zip_path.name)
                 item_data , category_image, priority= self._generate_item_data(bg_category)
+                categoty_thumb = f'{bg_category.name}/{category_image}'
                 final_list.append({
                     "categoryName": category_name,
-                    "categoryThumb": f'{bg_category.name}/{category_image}',
+                    "categoryThumb": categoty_thumb,
                     "lastModifiedTime": int(last_modified_time),
                     "priority": priority,
                     "zipFile": zip_path,
