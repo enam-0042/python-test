@@ -11,7 +11,7 @@ logger = get_logger()
 @singleton
 class TextureService:
     texture_source_path:Path
-    texture_specific_path:Path = Path('textures/textures')
+    texture_specific_path:Path = Path('textures')
 
     def _check_valid(self, path:Path)->bool:
         self.texture_source_path = Path (path) / self.texture_specific_path
