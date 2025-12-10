@@ -57,7 +57,7 @@ class IconService():
         return icon_list, priority
         # return icons
 
-    def create_icon_data(self, path:Path):
+    def create_icon_data(self, path:Path)->list:
         if not self.__check_valid(path):
             return []        
         final_list = []
