@@ -59,6 +59,8 @@ class BGService():
                 thumbImage = item_dict.get(item.stem.lower(), None)
                 if thumbImage :
                     thumbImage = f'{bg_category.name}/{thumbImage}'
+                else:
+                    thumbImage = ''
                 item_data.append({
                     "originalImage": originalImage,
                     "thumbImage": thumbImage
@@ -85,13 +87,16 @@ class BGService():
                 
                 zip_path = Path (path) / f'{category_name}.zip'
                 if not zip_path.exists():
-                    zip_path= None
+                    zip_path= ''
                     last_modified_time = bg_category.stat().st_mtime
                 else:
                     last_modified_time = zip_path.stat().st_mtime
                     zip_path = str(zip_path.name)
                 item_data , category_image, priority= self._generate_item_data(bg_category)
-                categoty_thumb = f'{bg_category.name}/{category_image}'
+                if category_image:
+                    categoty_thumb = f'{bg_category.name}/{category_image}'
+                else: 
+                    categoty_thumb = ''
                 final_list.append({
                     "categoryName": category_name,
                     "categoryThumb": categoty_thumb,
