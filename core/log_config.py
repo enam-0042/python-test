@@ -21,7 +21,7 @@ if not logger.handlers:
     )
 
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.WARNING)
+    console_handler.setLevel(logging.INFO)
     console_handler.setFormatter(log_format)
     logger.addHandler(console_handler)
 
