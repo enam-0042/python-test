@@ -11,7 +11,7 @@ class WallpaperService():
     wallpaperSourcePath:Path
 
     def _check_valid(self, path:Path)->bool:
-        if path.exists() and path.is_dir() :
+        if path and path.exists() and path.is_dir() :
             self.wallpaperSourcePath = path
             return True
         else :
@@ -51,28 +51,38 @@ class WallpaperService():
         content_list = []
         priority = -1
         category_name = path.name
+        zip_dict = {}
+        for item in path.iterdir():
+            if item.suffix.lower() == '.zip':
+                zip_dict[item.stem.lower()] = item
         for item in sorted(path.iterdir()):
             try:
                 
                 item_name = item.name
-                if item_name.endswith('.csv'):
-                    df = pd.read_csv(item, header=None)
-                    priority= int(df.iat[0,0])
-                    continue
+                if item_name.lower().endswith('.csv'):
+                    try:
+                        df = pd.read_csv(item, header=None)
+                        priority= int(df.iat[0,0])
+                        continue
+                    except Exception as e:
+                        logger.error(f'Error reading priority from {item}: {e}')
+                        continue
 
-                if item_name.endswith(('.DStore','ds_store','.dstore','.DS_Store', '.zip')):
+                if item_name.lower().endswith(('ds_store','.dstore', '.zip')):
                     continue
-                zip_path = Path(path)/(item_name+'.zip')
-                if not zip_path.exists():
-                    continue
-                if zip_path.exists():
-                    latest_modified_time = int(zip_path.stat().st_mtime)
-                else:
+                zip_path = Path(zip_dict.get(item_name.lower(), Path('')))
+                try:
+                    if zip_path and zip_path.exists():
+                        latest_modified_time = int(zip_path.stat().st_mtime)
+                    else:
+                        latest_modified_time = int(item.stat().st_mtime)
+                except Exception as e:
+                    logger.error(f'missing zip file path {zip_path}: {e}')
                     latest_modified_time = int(item.stat().st_mtime)
-                zip_file = item_name + '.zip' if zip_path.exists() else None
+                zip_file = zip_path.name if zip_path and zip_path.exists() else ''
                 holder_path, bg_path, promo = self._check_wallpaper(item)
 
-                if not holder_path.exists():
+                if not holder_path or not holder_path.exists():
                     continue
                 holder_name = holder_path.name
                 holder_width, holder_height = self._get_image_dimensions(holder_path)
@@ -84,7 +94,7 @@ class WallpaperService():
                 )
                 item_data = CommonContentSchema(
                     placeHolder= placeholder.model_dump(),
-                    zipFile= f'{category_name}/{zip_file}',
+                    zipFile= f'{category_name}/{zip_file}' if zip_file else '',
                     zipLastModifiedTime= latest_modified_time,
                     itemsNo= item_name,
                     promo= promo

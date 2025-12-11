@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     BASE_DIRECTORY : str
     JSON_STORE_LOCATION: str 
+    OVERLOOK_MINUTES: int = 3
 
     class Config:
         # This tells Pydantic to look for a .env file if it exists

@@ -1,7 +1,7 @@
-import asyncio
 from data.save_file import check_and_save_file
 from core.config import settings
 from pathlib import Path
+import asyncio
 
 async def check_and_update():
 
@@ -11,4 +11,4 @@ async def check_and_update():
 
     while True:
         check_and_save_file(forced_call=False)
-        await asyncio.sleep(3*60)
+        await asyncio.sleep(settings.OVERLOOK_MINUTES)  # Convert minutes to seconds

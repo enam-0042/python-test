@@ -1,3 +1,4 @@
+from schemas.common_content_schema import PlaceHolderSchema, CommonContentSchema
 import os 
 from pathlib import Path
 from pydantic import BaseModel
@@ -13,29 +14,29 @@ class OtherTypeCreationService:
     path:Path
     category_path:Path
 
-    default_item_data = {
-        "placeHolder": {
-            "placeHolderUrl": None,
-            "placeHolderWidth": None,
-            "placeHolderHeight": None
-        },    
-        "zipFile" :None,
-        "zipLastModifiedTime": None,
-        "itemsNo": None,
-        "promo": None           
-    }
     def _find_holder_file(self, item_path:Path) -> Path | None:
-        for file in item_path.iterdir():
-            if file.is_file() and file.stem.lower() == 'holder':
-                return file
-        # pattern = re.compile(r"Holder\..+", re.IGNORECASE)
-        # for file in item_path.iterdir():
-        #     if file.is_file() and pattern.match(file.name):
-        #         return file
+        try:
+            for file in item_path.iterdir():
+                if file.is_file() and file.stem.lower() == 'holder':
+                    if file.suffix.lower() in ('.jpg', '.png', '.jpeg', '.webp', '.svg'):
+                        return file
+        except Exception as e:
+            logger.error(f'Error finding holder file in {item_path}: {e}')
         return None
     
+    def _read_csv_promo(self, item:Path) -> bool:
+        promo = True
+        for file in item.iterdir():
+            if file and file.is_file() and file.suffix.lower() == '.csv' and file.stem == '1':
+                try:
+                    df = pd.read_csv(file)
+                    if df.columns[0].lower() == 'false':
+                        promo = False
+                except Exception as e:
+                    logger.error(f'Error reading promo info from {file}: {e}')
+        return promo
 
-    def _check_valid(self, path:Path, category:str) ->bool:
+    def _check_valid(self, path:Path) ->bool:
         # actually path and category_path has no functional value. this could be skipped
         self.category_path = Path(path) 
         self.path = Path(path)
@@ -45,7 +46,12 @@ class OtherTypeCreationService:
             return False
     def _get_sub_category_item_list(self, path:Path , category:str) -> tuple[list[dict], int]:
         item_list = []
-        parent_category = -1
+        parent_category_priority = -1
+        zip_dict = {}
+        for item in path.iterdir():
+            if item.suffix.lower() == '.zip':
+                zip_dict[item.stem.lower()] = item
+
         for item in sorted(path.iterdir()):
             try:
                 # here item like /home/gambler/Documents/poster_server_data/posters/Abstract/Abstract poster 300
@@ -54,99 +60,78 @@ class OtherTypeCreationService:
                 if item_name.lower().endswith(( '.ds_store',  '.dstore', '.zip'))  :
                     continue
 
-                               
-                if item_name.lower().endswith('.csv'):
-                    if item.exists():
-                        df = pd.read_csv(item, header=None)
-                        parent_category= int(df.iat[0,0])
+                try:               
+                    if item_name.lower().endswith('.csv'):
+                        if item.exists():
+                            df = pd.read_csv(item, header=None)
+                            parent_category_priority= int(df.iat[0,0])
+                        continue
+                except Exception as e:
+                    logger.error(f'Error reading parent category from {item}: {e}')
                     continue
 
-                # this will look for image that will have Holder as name but format can be anything like .jpg ,.webp
-                # holder_file_path_with_extension =str(next(Path(item).glob("Holder.*"), None))
-                holder_file_path_with_extension = self._find_holder_file(item_path=item)
-                holder_img_path = Path()
-                holder_img_name = None  
-                if holder_file_path_with_extension is not None:
-                    holder_file_path_with_extension = holder_file_path_with_extension.name
-                    holder_img_name = holder_file_path_with_extension
-                    holder_img_path = Path(item)/holder_img_name
+                # this will look for '1.csv' file this will contain 'promo' and other value , we focus only in promo 
+                promo = self._read_csv_promo(item=item)
 
-                # this will look for 1.csv file this will contain 'promo' and other value , we focus only in promo 
-                placeholder_csv_path = Path(item ) / '1.csv'
-                promo = False
-                
-                if placeholder_csv_path.exists():
-                    df = pd.read_csv(placeholder_csv_path)
-                    if df.columns[0].lower()== 'true':
-                        promo= True
-                    else:
-                        promo = False 
                 # this will look for its '.zip' file , zip file must and must have the same name as the subcategory 
                 # like 'Abstract poster 300' this must have 'Abstract poster 300.zip' file otherwise zip will be null
-                zip_file_path = Path(path)/ f'{item_name}.zip'
-                
-                if zip_file_path.exists():
-                    mod_time_ms = int(zip_file_path.stat().st_mtime)
-                    zip_file_name =f'{item_name}.zip'
-                else : 
-                    zip_file_name = None
-                    mod_time_ms = None
-
-                if not holder_img_path.is_file():
-                    holder_img_name = None
-                # fetch the 'Holder/holder/HOLDER.****' image info, width , height 
-                if holder_img_path.is_file():
-                    image = Image.open(holder_img_path)
-                    width, height = image.size
+                zip_file_name = '' 
+                zip_file_name = zip_dict.get(item_name.lower(), Path()).name 
+                last_modified_time = item.stat().st_mtime
+                try:
+                    if zip_file_name :
+                        zip_file_path = Path(path)/ zip_file_name
+                        last_modified_time = int(zip_file_path.stat().st_mtime)
+                    # this will look for image that will have Holder as name but format can be anything like .jpg ,.webp
+                    holder_img_path = self._find_holder_file(item_path=item)
+                    if holder_img_path and holder_img_path.exists() :
+                        holder_img_name = holder_img_path.name
+                    # fetch the 'Holder/holder/HOLDER.****' image info, width , height 
+                    if holder_img_path and holder_img_path.is_file():
+                        image = Image.open(holder_img_path)
+                        width, height = image.size
+                except Exception as e:
+                    width, height = 0,0
+                    holder_img_name = ''
+                    zip_file_name = ''
+                    logger.error(f'Error processing holder or zip for {item}: {e}')
                     # placeHolderUrl = posters / Abstract poster 300 / Holder.jpg  for example   
-                    item_data = {
-                        "placeHolder": {
-                            "placeHolderUrl": f"{category}/{item_name}/{holder_img_name}",
-                            "placeHolderWidth": int(width/3),
-                            "placeHolderHeight": int(height/3)
-                        },    
-                        "zipFile" :f'{category}/{zip_file_name}',
-                        "zipLastModifiedTime": mod_time_ms,
-                        "itemsNo": item_name,
-                        "promo": promo           
-                    }
-                else :
-                    # if no holder image than returning null element
-                    continue        
+                    
+                place_holder= PlaceHolderSchema(
+                    placeHolderUrl= f'{category}/{item_name}/{holder_img_name}' if holder_img_name else '',
+                    placeHolderWidth= int(width/3),
+                    placeHolderHeight= int(height/3)
+                )
+
+                item_data = CommonContentSchema(
+                    placeHolder= place_holder,
+                    zipFile = f'{category}/{zip_file_name}' if zip_file_name else '',
+                    zipLastModifiedTime= int(last_modified_time),
+                    itemsNo= item_name,
+                    promo= promo           
+                ).model_dump()  
+
                 item_list.append(item_data)
             except Exception as e:
-                logger.error(f'while generating {category} data Error--->{e}')
-        return item_list,parent_category
+                logger.error(f'while generating  {path.parent}/{category} ///{item.name}data Error--->{e}')
+        return item_list,parent_category_priority
 
             
             
 
     def _get_sub_category_data(self, path:Path, category:str) ->list:
-        if path.exists() and path.is_dir():
-            pass
-        else:
-            return []
         category_data_list = []
-        
+
         for sub_category in path.iterdir():
             try:
                 # here subcategory like /home/gambler/Documents/poster_server_data/posters/Abstract
-                
-                
-                # this below logic seems unnecessary , but it has great value. sometime there is 
-                # .DStore type file in this folder. or some unwanted file. should have handle those explicitly
-                # if category=='logos':
-                #     logger.info(sub_category.name)
+            
+                # ignores .ds_store and non directory files
                 if not sub_category.is_dir():
                     continue
                 
                 category_priority = -1
                 sub_category_name = sub_category.name
-                # sub_category_csv = Path(sub_category) / f'{sub_category_name}.csv'
-                # if sub_category_csv.exists():
-                #     df = pd.read_csv(sub_category_csv, header=None)
-                #     category_priority= df.iat[0,0]
-                
                 category_item = {
                     "logoTypeName": sub_category_name,
                 }
@@ -164,7 +149,7 @@ class OtherTypeCreationService:
     def create_other_json(self, path:Path, category )->list:
         # here path is like = /home/.../poster_server_data/posters
         # category is like 'posters' , 'banners' etc
-        if not self._check_valid(path, category):
+        if not self._check_valid(path=path):
             logger.warning(f'{category} directory not found')
             return []
         data = self._get_sub_category_data(path , category=category)

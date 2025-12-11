@@ -17,6 +17,6 @@ def reload_json():
 
 @router.get("/generate_test_key/{secret_key}")
 def generate_test_key(secret_key: str)->str:
-    if secret_key not in ("riba","mune","otnahs","otnahsorp"):
+    if secret_key not in ("riba","mune","otnahs","atnahsarp"):
         return "wrong secret key"
     return LegacyCryptoAlgorithm().encrypt()

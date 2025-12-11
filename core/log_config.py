@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import os
 
-APP_LOGGER_NAME = "Fastapi_Universal_api"
+APP_LOGGER_NAME = "Poster-Maker_Universal_API"
 
 logger = logging.getLogger(APP_LOGGER_NAME)
 # logger.setLevel(logging.WARNING)
