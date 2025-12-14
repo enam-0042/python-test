@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
 
     PROJECT_NAME: str = "Industry-Grade FastAPI Project"
-    API_V1_STR: str = "/api/v1"
+    API_V1_STR: str = "/poster_content_server/api/v1"
     BASE_DIRECTORY : str
     JSON_STORE_LOCATION: str 
     OVERLOOK_MINUTES: int = 3

@@ -1,23 +1,16 @@
+
+from services.apscheduler import start_scheduler, shutdown_scheduler
 import asyncio
-import logging
+from fastapi import FastAPI
+from data.save_file import check_and_save_file
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
-
-from services.scheduler_startup import check_and_update
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 @asynccontextmanager
-async def lifespan(app:FastAPI):
-    task = asyncio.create_task(check_and_update())
-    logger.info("Check and update task started")
+async def lifespan(app: FastAPI):
+    loop = asyncio.get_running_loop()
+    await loop.run_in_executor(None,check_and_save_file, False)
 
+    start_scheduler()
     yield
-
-    task.cancel()
-    logger.info("Check and update gracefully stopped")
-
-    await task
+    shutdown_scheduler()   
 
