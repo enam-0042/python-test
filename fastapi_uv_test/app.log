@@ -1,0 +1,6 @@
+2025-09-21 13:46:05,247 - INFO - This log message is going to both the console and the file.
+2025-09-21 13:46:05,247 - WARNING - This is a warning that will also appear in both places.
+2025-09-22 14:47:45,579 - INFO - This log message is going to both the console and the file.
+2025-09-22 14:47:45,579 - WARNING - This is a warning that will also appear in both places.
+2025-09-22 14:48:22,562 - INFO - This log message is going to both the console and the file.
+2025-09-22 14:48:22,562 - WARNING - This is a warning that will also appear in both places.
