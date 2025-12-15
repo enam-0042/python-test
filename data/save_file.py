@@ -3,9 +3,9 @@ from store.global_store import global_store
 from services.bg_json_generator import BGService
 
 from core.config import settings
-from services.icon_json_generator import IconService
+# from services.icon_json_generator import IconService
 from services.other_json_creator import OtherTypeCreationService
-from services.texture_json_creator import TextureService
+# from services.texture_json_creator import TextureService
 from services.wallpaper_json_generator import WallpaperService
 from core.log_config import get_logger
 from pathlib import Path

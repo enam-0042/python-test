@@ -21,7 +21,7 @@ def start_scheduler():
         check_and_update_job,
         trigger="interval",
         seconds=settings.OVERLOOK_MINUTES,
-        # next_run_time=datetime.utcnow(),
+        # next_run_time=datetime.now(),
         id="check_and_update_job",
         replace_existing=True,        
         max_instances=1,
