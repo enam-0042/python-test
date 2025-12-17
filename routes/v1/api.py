@@ -8,7 +8,7 @@ from store.global_store import global_store
 logger = get_logger(__name__)
 
 router = APIRouter(
-    prefix="/api/v1", tags=["Trending API Categories API Category Data API"]
+    prefix="/poster_maker/api/v1", tags=["Trending API Categories API Category Data API"]
 )
 
 
