@@ -4,7 +4,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # API endpoint
-url = "https://api.logo-maker.online:8069/ai/api/v1/garden-design"  # replace with your actual endpoint
+url = "httpsttt"  # replace with your actual endpoint
 
 # Headers
 headers = {
