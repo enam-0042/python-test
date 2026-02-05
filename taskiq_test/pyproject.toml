@@ -1,12 +1,11 @@
 [project]
-name = "test-fastapi"
+name = "taskiq-test"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "fastapi>=0.120.4",
-    "httpx>=0.28.1",
+    "fastapi[standard]>=0.128.1",
     "taskiq>=0.12.1",
-    "uvicorn>=0.38.0",
+    "taskiq-redis>=1.2.2",
 ]
