@@ -1366,6 +1366,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fastapi", extra = ["standard"] },
+    { name = "redis" },
     { name = "taskiq" },
     { name = "taskiq-redis" },
 ]
@@ -1373,6 +1374,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.128.1" },
+    { name = "redis", specifier = ">=5.0.0" },
     { name = "taskiq", specifier = ">=0.12.1" },
     { name = "taskiq-redis", specifier = ">=1.2.2" },
 ]
