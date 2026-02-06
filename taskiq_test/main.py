@@ -29,21 +29,23 @@ async def trigger_processing(payload:dict):
 
 @app.get("/result/{job_id}")
 async def get_result(job_id:str):
-    try:
-        result = await broker.result_backend.get_result(job_id)
-        return {
-            "status": "calculation done",
-            "result": result.return_value,
-            "execution_time": result.execution_time
-        }
-        if result.is_result_ready():
-            print(f"Result is ready: {result.return_value}")
+    # try:
+        result = await broker.result_backend.is_result_ready(job_id)
+        # return {
+        #     "status": "calculation done",
+        #     "result": result.return_value,
+        #     "execution_time": result.execution_time
+        # }
+        if result:
+            return await broker.result_backend.get_result(job_id)
+            # print(f"Result is ready: {result.return_value}")
         else:
-            print("Result is not ready yet.")
-    except ResultIsMissingError:
-        return {"status": "pending"}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e)) 
+            return {"status": "pending"}
+            # print("Result is not ready yet.")
+    # except ResultIsMissingError:
+    #     return {"status": "pending"}
+    # except Exception as e:
+    #     raise HTTPException(status_code=500, detail=str(e)) 
 
 # async def run_example():
 #     task = await heavy_computation.kiq({"key": "val,m,m,m,m,m,ue"})
