@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from broker import broker
 from tasks import heavy_computation
 import asyncio
+# from taskiq.abc.result_backend import ResultIsMissingError  # <--- THIS IS THE MISSING PIECE
+from taskiq_redis.exceptions import ResultIsMissingError
 app = FastAPI()
 
 # @app.on_event("startup")
@@ -34,6 +36,10 @@ async def get_result(job_id:str):
             "result": result.return_value,
             "execution_time": result.execution_time
         }
+        if result.is_result_ready():
+            print(f"Result is ready: {result.return_value}")
+        else:
+            print("Result is not ready yet.")
     except ResultIsMissingError:
         return {"status": "pending"}
     except Exception as e:

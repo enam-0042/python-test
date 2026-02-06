@@ -6,8 +6,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Use Redis as the message carrier
 try:
-    result_backend = RedisAsyncResultBackend("redis://localhost:6379/0",
-                                             result_ex_time=3600)
+    result_backend = RedisAsyncResultBackend("redis://localhost:6379/0", result_ex_time=3600)
     
     broker = RedisStreamBroker("redis://localhost:6379/0",
                                ).with_result_backend(result_backend=result_backend)
